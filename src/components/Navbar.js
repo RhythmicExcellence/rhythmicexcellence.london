@@ -16,7 +16,7 @@ export const Navbar = () => (
       Timetable
     </Link>
     <Link to="/team" activeClassName="selected">
-      Meet the team
+      Meet our team
     </Link>
     <Link to="/news" activeClassName="selected">
       News
