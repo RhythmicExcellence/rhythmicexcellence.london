@@ -37,4 +37,4 @@ Picture by GBDANCESTARS
 
 ***Upcoming event***  
 
-* **Saturday 24th April** - RE Series Round 1
+* **Saturday 1st May** - RE Series Round 1
