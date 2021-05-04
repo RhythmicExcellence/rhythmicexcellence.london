@@ -37,4 +37,7 @@ Picture by GBDANCESTARS
 
 ***Upcoming event***  
 
-* **Friday 7th May** - RE Series Round 1
+* **Friday 14th May** - RE Series Round 1
+* **Friday 4th June** - RE Series Round 2
+* **Friday 25th May** - RE Series Round 3 Final
+* **Saturday 17th July** - Foundation squad Control Training
