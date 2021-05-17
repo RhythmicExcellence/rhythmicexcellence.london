@@ -1,6 +1,6 @@
 ---
 published: true
-title: RE Series - Match 1
+title: 2021 RE Series - Match 1
 date: 2021-05-17T09:06:56.468Z
 ---
 ***Wonderful step back to the carpet for our squad gymnasts!***
@@ -16,5 +16,7 @@ The 3 teams have performed all the 6 routines (free, rope, hoop, ball, clubs and
 Thanks to all our judges: *Rebecca Bunce* (D3/4), *Stefano Sirianni* (D1/2), *Johanna Chudzik* (A) and *Francesca fazzari* (E).
 
 Looking forward for the second match planned on Friday 4th June.
+
+Follow our [IG](https://www.instagram.com/rhythmic_excellence/) account to see more videos and pictures of our beauties!
 
 ![](/assets/screenshot-2021-05-17-at-10.31.04.png)
