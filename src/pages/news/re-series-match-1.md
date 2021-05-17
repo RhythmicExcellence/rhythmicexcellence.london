@@ -1,7 +1,7 @@
 ---
 published: true
 title: 2021 RE Series - Match 1
-date: 2021-05-17T09:06:56.468Z
+date: 2021-05-14T09:06:56.468Z
 ---
 ***Wonderful step back to the carpet for our squad gymnasts!***
 
