@@ -4,7 +4,9 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.png)
 
-## ***The Rhythmic Excellence team is now Open! Check out our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
+## ***All Rhythmic Excellence classes are running live at the gym! Check out our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
+
+***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2007, 2006, 2005 to enter our senior group, gymnasts born in 2010, 2009 and 2008 to enter our junior group and gymnasts born in 2011, 2012 and 2013 to enter our espoir group.***
 
 - - -
 
@@ -37,6 +39,5 @@ Picture by GBDANCESTARS
 
 ***Upcoming event***  
 
-* **Friday 4th June** - RE Series Round 2
-* **Friday 11th June** - RE Series Round 3 Final
+* **Friday 10th June** - RE Series Round 3 Final
 * **Saturday 17th July** - Foundation squad Control Training
