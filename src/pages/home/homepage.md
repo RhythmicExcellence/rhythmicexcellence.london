@@ -8,6 +8,8 @@ title: Rhythmic Excellence
 
 ***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2007, 2006, 2005 to enter our senior group, gymnasts born in 2010, 2009 and 2008 to enter our junior group and gymnasts born in 2011, 2012 and 2013 to enter our espoir group.***
 
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D3824498480981385%26id%3D787019504729313&show_text=true&width=500" width="500" height="645" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
 - - -
 
 **[Rhythmic Excellence](https://www.youtube.com/watch?v=qRxN1Yk1A5w)** is a highly professional Rhythmic Gymnastics school founded in April 2015 by *Stefano Sirianni* and *Eleonora Baio*. \
