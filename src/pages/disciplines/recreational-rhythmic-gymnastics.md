@@ -17,6 +17,6 @@ Baby group:
 
 Please enquiry to receive further information
 
-![](/assets/rhythmic-137-edit.jpg)
+![](/assets/dan_3098.jpg)
 
-Picture by [GBDANCESTARS](https://www.instagram.com/gbswimstars_gbdancestars/?hl=en)
+Picture by [](https://www.instagram.com/gbswimstars_gbdancestars/?hl=en)[Dan Pickard](http://danpickard.com/)
