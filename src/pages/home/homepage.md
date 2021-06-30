@@ -8,7 +8,7 @@ title: Rhythmic Excellence
 
 ***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2007, 2006, 2005 to enter our senior group, gymnasts born in 2010, 2009 and 2008 to enter our junior group and gymnasts born in 2011, 2012 and 2013 to enter our espoir group.***
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D3824498480981385%26id%3D787019504729313&show_text=true&width=500" width="500" height="645" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+![](/assets/screenshot-2021-06-30-at-15.25.55.png)
 
 - - -
 
@@ -29,6 +29,10 @@ We believe in a triangle of collaboration and trust between gymnast, coach, pare
 *A big Team!*\
 We take this opportunity to acknowledge that we wouldn't be where we are today without the admirable work of all our coaches past and present, and those who have given us their trust and support. We want to send a special shout-out to Mrs *Karen C*: the generosity and positivity you have shown us has been heartwarming.
 
+![](/assets/dan_0018b.jpg)
+
+Picture by Dan Pickard\
+\
 All our coaches, teachers, and volunteers are DBS checked; our coaches have also passed a Safeguarding and Child Protection Course.
 
 Gymnasts in our club must be registered with British Gymnastics.
