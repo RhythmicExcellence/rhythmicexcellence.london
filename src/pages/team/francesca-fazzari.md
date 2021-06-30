@@ -1,6 +1,6 @@
 ---
 published: true
-position: 3
+position: 8
 title: Francesca Fazzari
 titles: |-
   UKCC Level 2 Rhythmic Gymnastics Coach
