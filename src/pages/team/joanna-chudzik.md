@@ -5,7 +5,7 @@ title: Joanna (Asia) Chudzik
 titles: |-
   UKCC Level 1 Coach
   Level 2 judge
-avatar: /assets/img_20181013_142003.jpg
+avatar: /assets/dan_0024.jpg
 details: >-
   Asia started her adventure with Rhythmic Gymnastics at the age of 7. She
 
