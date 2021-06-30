@@ -1,6 +1,6 @@
 ---
 published: true
-position: 8
+position: 5
 title: Rebecca Bunce
 titles: |+
   Group Program Coach
