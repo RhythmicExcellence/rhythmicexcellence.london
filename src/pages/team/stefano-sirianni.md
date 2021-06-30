@@ -7,7 +7,7 @@ titles: |-
   UKCC Level 2 Rhythmic Gymnastics Coach
   National Judge
   British Gymnastics Technical committee Member
-avatar: /assets/stefano-sirianni.jpg
+avatar: /assets/dan_0023.jpg
 details: |-
   Fun and experienced ballet and modern dance teacher to students of all skill
   levels and ages. Versatile and ambitious in a variety of dance idioms as a
