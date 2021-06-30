@@ -1,6 +1,6 @@
 ---
 published: true
-position: 5
+position: 3
 title: Stephani Sherlock
 titles: |-
   Coach of highest sports performance (RG)
