@@ -15,13 +15,9 @@ const toKensington = process.env.EMAIL_KENSINGTON;
 const toHackney = process.env.EMAIL_HACKNEY;
 const subject = process.env.SUBJECT;
 const debug = process.env.DEBUG === 'true';
+const allowedOrigins = process.env.ALLOWED_ORIGINS.split(',');
 
-const ALLOWED_ORIGINS = [
-  'https://rhythmicexcellence.london',
-  'https://www.rhythmicexcellence.london',
-];
-
-const returnCallback = (body, statusCode = 500, cors = false) => {
+const returnCallback = (body, statusCode = 500, cors = false, origin = '') => {
   if (!(statusCode < 300 && statusCode >= 200)) {
     body = { name: body.name, message: body.message };
   }
@@ -30,12 +26,10 @@ const returnCallback = (body, statusCode = 500, cors = false) => {
     'Access-Control-Allow-Headers': 'Content-Type',
     'Content-Type': 'application/json',
     'Access-Control-Allow-Methods': 'OPTIONS,POST',
-    'Access-Control-Allow-Origin': ALLOWED_ORIGINS,
-    'Access-Control-Allow-Credentials': true,
   };
-  if (cors) {
-    headers['Access-Control-Allow-Origin'] = '*';
-  } else {
+
+  if (!cors) {
+    headers['Access-Control-Allow-Origin'] = origin;
     headers['Access-Control-Allow-Credentials'] = true;
   }
 
@@ -46,18 +40,16 @@ const returnCallback = (body, statusCode = 500, cors = false) => {
   };
 };
 
-module.exports.send = async (event, context, callback) => {
-  let data;
-
+module.exports.send = async (event, context) => {
   const { headers, body } = event;
-
-  console.warn(ALLOWED_ORIGINS.includes(origin));
   const origin = headers.Origin || headers.origin;
 
-  if (!ALLOWED_ORIGINS.includes(origin)) {
+  if (!allowedOrigins.includes(origin)) {
+    console.log(`Unauthorised request from ${origin}`);
     return returnCallback({}, 401, true);
   }
 
+  let data;
   try {
     data = JSON.parse(body);
   } catch (err) {
@@ -82,6 +74,5 @@ module.exports.send = async (event, context, callback) => {
     return returnCallback(err);
   }
 
-  const response = returnCallback({ status: 'success' }, 200);
-  callback(null, response);
+  return returnCallback({ status: 'success' }, 200, false, origin);
 };
