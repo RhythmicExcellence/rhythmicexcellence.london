@@ -3,8 +3,6 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-'use strict';
-
 class EmailGenerator {
   constructor(charset = 'UTF-8') {
     this._charset = charset;

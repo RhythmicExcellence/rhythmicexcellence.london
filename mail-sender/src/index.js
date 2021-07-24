@@ -3,8 +3,6 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-'use strict';
-
 const AWS = require('aws-sdk');
 const { EmailGenerator } = require('./email-generator');
 const { EmailSenderError } = require('./error-handler');
@@ -44,7 +42,7 @@ module.exports = async (data, from, to, subject, debug) => {
 
   const mailSender = new MailSender(AWS, EmailGenerator);
 
-  log.info('attempting to send following email', emailObject);
+  log.info('attempting to send email', emailObject);
 
   try {
     await mailSender.send(emailObject);

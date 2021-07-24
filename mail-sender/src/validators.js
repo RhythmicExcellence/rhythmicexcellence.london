@@ -3,8 +3,6 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-'use strict';
-
 const sanitize = (field) => field && ['', field].join('').trim();
 
 const validateField = (dataField) => {

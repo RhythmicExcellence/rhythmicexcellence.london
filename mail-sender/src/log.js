@@ -3,17 +3,15 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-'use strict';
-
 class Log {
   constructor(debugStatus = false) {
     this.debugStatus = debugStatus;
   }
 
   info(title, body) {
-    if (this.debugStatus) {
-      console.log(title);
-      body && console.log(body);
+    console.log(title);
+    if (this.debugStatus && body) {
+      console.log(body);
     }
   }
 }
