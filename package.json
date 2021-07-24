@@ -3,7 +3,7 @@
   "description": "RhythmicExcellence website",
   "version": "1.4.5",
   "engines": {
-    "node": "12.19.0"
+    "node": ">=12"
   },
   "author": "andreasonny83 <andreasonny83@gmail.com>",
   "homepage": "https://github.com/RhythmicExcellence/rhythmicexcellence.london#readme",
