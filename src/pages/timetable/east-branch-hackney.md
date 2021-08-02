@@ -6,14 +6,16 @@ tuesday: |
   17:00 - 21:00 - Squad
   17:30 - 19:30 - Foundation Squad
   18:00 - 19:30 - Recreational 
-wednesday: ""
+wednesday: |
+  17:00 - 21:00 - Squad
+  17:00 - 19:00 - Foundation Squad
 thursday: ""
 friday: |+
   11:00 - 16:00 - Academy
   17:00 - 21:00 - Squad
-  17:30 - 19:30 - Foundation Squad ONLINE
-  17:30 - 18:30 - Baby group
-  18:30 - 19:30 - Adult RG Recreational Group 
+  17:00 - 19:30 - Foundation Squad
+  17:00 - 18:00 - Baby group
+  18:00 - 19:00 - Adult RG Recreational Group 
 
 
 saturday: |
