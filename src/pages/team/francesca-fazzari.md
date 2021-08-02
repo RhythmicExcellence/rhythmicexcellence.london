@@ -1,36 +1,14 @@
 ---
 published: true
 position: 8
-title: Francesca Fazzari
+title: Simona Martini
 titles: |-
-  UKCC Level 2 Rhythmic Gymnastics Coach
-  Level 2 Judge
-avatar: /assets/francesca-fazzari.jpg
-details: >-
-  Francesca trained in Italy for ten years with Daniela Vergani and once senior
-
-  she became part of her coaching team for 6 years.
-
-
-  She competed, as member of the Italian junior team at the European
-
-  Championship in 2005 in Moscow and the “Irina Deleanu Cup” in Bucharest,
-
-  trained by Laura Lazzaroni.
-
-
-  After finishing her university studies, Francesca moved to London in 2015.
-
-
-  Francesca is the main coach of RE advance, pre-squad and adult groups, she also coach the squad group and is responsible of the coaches teaching R1 and R2 groups.
+  Qualified Ballet Coach
+  Qualified Fitness Instructor
+  Former Royal Ballet dancer
+avatar: /assets/rhythmicexcellence-copy.jpg
+details: >
+  Simona is an Actor, Singer, Ballet Dancer and Fitness Instructor, she studied
+  Method acting at the "Brian Timoney Ultimate Acting Programme" and Ballet at
+  the Royal Ballet School.
 ---
-Francesca trained in Italy for ten years with Daniela Vergani and once senior
-she became part of her coaching team for 6 years.
-
-She competed, as member of the Italian junior team at the European
-Championship in 2005 in Moscow and the “Irina Deleanu Cup” in Bucharest,
-trained by Laura Lazzaroni.
-
-After finishing her university studies, Francesca moved to London in 2015.
-
-Francesca is the main coach of RE advance, pre-squad and adult groups, she also coach the squad group and is responsible of the coaches teaching R1 and R2 groups.
