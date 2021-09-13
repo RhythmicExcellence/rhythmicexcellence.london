@@ -17,10 +17,10 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 
 ![](/assets/img-20180513-wa0048.jpg)
 
-Season 2020/2021
+Season 2021/2022
 
 * **Squad** Selected gymnasts only - Level 3, 4 and 5
-* **Young Squad** Selected gymnasts only -preparation for level 3, 4 and 5
+* **Foundation Squad** Selected gymnasts only - preparation for level 3, 4 and 5
 
 ![Saffron Severn at the British Championships 2018](/assets/disciplines-rhythmic-gymnastics.jpg)
 
