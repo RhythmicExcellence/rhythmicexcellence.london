@@ -8,12 +8,12 @@ Our recreational classes are opened to children from 4 years old up.
 Our monthly fees are:
 
 1 day per week - £75\
-2 days per week - £90\
-3 days per week - £115
+2 days per week - £100\
+3 days per week - £120
 
 Baby group:
 
-1 day per week - £50
+1 day per week - £55
 
 Please enquiry to receive further information
 
