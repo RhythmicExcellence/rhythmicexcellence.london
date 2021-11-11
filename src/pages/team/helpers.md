@@ -1,6 +1,6 @@
 ---
 published: true
-position: 10
+position: 11
 title: Inna Yilmaz
 titles: ""
 avatar: /assets/rhythmicexcellence-copy.jpg
