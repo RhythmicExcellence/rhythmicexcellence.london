@@ -1,6 +1,6 @@
 ---
 published: true
-position: 11
+position: 6
 title: Madison Kennelly
 titles: UKCC Level 0 Coach
 avatar: /assets/rhythmicexcellence2.jpg
