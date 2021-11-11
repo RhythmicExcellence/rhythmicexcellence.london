@@ -1,6 +1,6 @@
 ---
 published: true
-position: 6
+position: 7
 title: Francesca Majer
 titles: Assistant Coach
 avatar: /assets/whatsapp-image-2020-09-24-at-15.58.33.jpeg
