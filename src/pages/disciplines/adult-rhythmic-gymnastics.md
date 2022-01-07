@@ -7,16 +7,15 @@ Adult Gymnastics provides a new opportunity to try out an amazing sport. Build y
 
 The minimum age to attend the course is 15.
 
-Our monthly fees are:
+Our monthly fee is:
 
-1 day per week - £50\
-2 days per week - £65\
+1 day per week - £75\
 \
 Please enquiry to receive further information
 
 ## Our timetable
 
-**Tuesday** and **Friday** 6-7 at SPACe (online in September 2020)
+**Friday** 6-7:30 at SPACe
 
 ![adult gymnastics](/assets/img_4426.jpg)
 
