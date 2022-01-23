@@ -15,7 +15,7 @@ module.exports = async (sendMailData) => {
 
   const log = new Log(debug);
 
-  log.info('event data received', data);
+  log.info('event data received', sendMailData);
 
   const { sender, email, body, branch } = data;
 
