@@ -6,19 +6,20 @@
   "scripts": {
     "dev": "AWS_REGION=us-east-1 serverless offline start",
     "deploy": "serverless deploy",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "clean": "yarn autoclean --force"
   },
   "keywords": [],
   "author": "andreasonny83 <andreasonny83@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.315.0",
-    "dotenv": "^8.0.0",
-    "nodemailer": "^6.4.16",
+    "aws-sdk": "^2.1062.0",
+    "dotenv": "^14.2.0",
+    "nodemailer": "^6.7.2",
     "nodemailer-ses-transport": "^1.5.1",
-    "serverless-offline": "^7.0.0"
+    "serverless-offline": "^8.3.1"
   },
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^27.4.7"
   }
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
+// Copyright (c) 2018-2022 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -14,8 +14,11 @@ const toTestEmail = process.env.EMAIL_TEST;
 const toKensington = process.env.EMAIL_KENSINGTON;
 const toHackney = process.env.EMAIL_HACKNEY;
 const subject = process.env.SUBJECT;
+const confirmationSender = process.env.CONFIRMATION_SENDER;
+const confirmationSubject = process.env.CONFIRMATION_SUBJECT;
 const debug = process.env.DEBUG === 'true';
 const allowedOrigins = process.env.ALLOWED_ORIGINS.split(',');
+const isDev = process.env.NODE_ENV === 'development';
 
 const returnCallback = (body, statusCode = 500, cors = false, origin = '') => {
   if (!(statusCode < 300 && statusCode >= 200)) {
@@ -44,7 +47,7 @@ module.exports.send = async (event, context) => {
   const { headers, body } = event;
   const origin = headers.Origin || headers.origin;
 
-  if (!allowedOrigins.includes(origin)) {
+  if (!allowedOrigins.includes(origin) && !isDev) {
     console.log(`Unauthorised request from ${origin}`);
     return returnCallback({}, 401, true);
   }
@@ -52,12 +55,13 @@ module.exports.send = async (event, context) => {
   let data;
   try {
     data = JSON.parse(body);
+    if (!data) {
+      throw new Error();
+    }
   } catch (err) {
     return returnCallback({
       name: 'SyntaxError',
-      message:
-        'body is missing in the event or is not parsable to JSON.\n' +
-        err.message,
+      message: 'body is missing in the event or is not parsable to JSON.\n' + err.message || err,
     });
   }
 
@@ -69,8 +73,17 @@ module.exports.send = async (event, context) => {
     (trimmedBranch === 'test' && toTestEmail);
 
   try {
-    await sendMail(data, from, to, subject, debug);
+    await sendMail({
+      data,
+      from,
+      to,
+      subject,
+      confirmationSender,
+      confirmationSubject,
+      debug,
+    });
   } catch (err) {
+    console.warn(err.message || err);
     return returnCallback(err);
   }
 

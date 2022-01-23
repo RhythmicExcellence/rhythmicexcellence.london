@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
+// Copyright (c) 2018-2022 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -10,7 +10,7 @@ const validateField = (dataField) => {
     return;
   }
 
-  throw 'Invalid data';
+  throw `Invalid data: ${dataField}`;
 };
 
 const validateEmail = (emailFiled) => {

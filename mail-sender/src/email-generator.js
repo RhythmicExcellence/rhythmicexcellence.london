@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
+// Copyright (c) 2018-2022 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -14,12 +14,37 @@ class EmailGenerator {
     return this._generate(...newParams);
   }
 
+  generateConfirmation(...params) {
+    const newParams = [this._charset, ...params];
+
+    return this._generateConfirmationMail(...newParams);
+  }
+
+  _generateConfirmationBody() {
+    const body = `
+    Thank you for contacting us!
+
+    We have received your message. One of our team members will get in touch with you shortly.
+    `;
+
+    const footer = `
+    This is an automatic e-mail generated from https://rhythmicexcellence.london
+    Please, don't reply to this email.`;
+
+    const message = `
+      ${body}
+      ${footer}
+      `;
+
+    return message;
+  }
+
   _generateBody(isHtml, sender, from, branch, body) {
     const date = new Date().toUTCString();
     const footer = `
     This is an automatic e-mail generated from ${(isHtml &&
-      '<a href="http://www.rhythmicexcellence.london" target="_blank">www.rhythmicexcellence.london</a>') ||
-      'http://rhythmicexcellence.london'}<br/>
+      '<a href="https://www.rhythmicexcellence.london" target="_blank">www.rhythmicexcellence.london</a>') ||
+      'https://rhythmicexcellence.london'}<br/>
     If you do not wish to continue receiving these messages or for other queries, please contact your web administrator at: ${(isHtml &&
       '<a href="mailto:andreasonny83@gmail.com" target="_blank">andreasonny83@gmail.com</a>.') ||
       'andreasonny83@gmail.com .'}`;
@@ -113,6 +138,30 @@ class EmailGenerator {
             Data: messageHtml,
             Charset,
           },
+          Text: {
+            Data: messageText,
+            Charset,
+          },
+        },
+      },
+    };
+  }
+
+  _generateConfirmationMail(charset, subject, from, to) {
+    const Charset = charset;
+    const messageText = this._generateConfirmationBody();
+
+    return {
+      Destination: {
+        ToAddresses: [to],
+      },
+      Source: from,
+      Message: {
+        Subject: {
+          Data: subject,
+          Charset,
+        },
+        Body: {
           Text: {
             Data: messageText,
             Charset,
