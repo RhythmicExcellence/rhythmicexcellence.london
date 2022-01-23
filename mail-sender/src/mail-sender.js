@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
+// Copyright (c) 2018-2022 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -11,15 +11,18 @@ class MailSender {
 
   async send(emailObject) {
     const { subject, body, branch, from, to, sender, email } = emailObject;
-    const emailFormattedObject = this._prepareEmail(
-      subject,
-      body,
-      branch,
-      from,
-      to,
-      sender,
-      email
-    );
+    const emailFormattedObject = this._prepareEmail(subject, body, branch, from, to, sender, email);
+
+    try {
+      await this._sendEmail(emailFormattedObject);
+    } catch (err) {
+      throw new Error(err);
+    }
+  }
+
+  async sendConfirmation(emailObject) {
+    const { subject, from, to } = emailObject;
+    const emailFormattedObject = this._prepareConfirmationEmail(subject, from, to);
 
     try {
       await this._sendEmail(emailFormattedObject);
@@ -33,15 +36,11 @@ class MailSender {
   }
 
   _prepareEmail(subject, body, branch, from, to, sender, email) {
-    return this.emailGenerator.generate(
-      subject,
-      body,
-      branch,
-      from,
-      to,
-      sender,
-      email
-    );
+    return this.emailGenerator.generate(subject, body, branch, from, to, sender, email);
+  }
+
+  _prepareConfirmationEmail(subject, from, to) {
+    return this.emailGenerator.generateConfirmation(subject, from, to);
   }
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
+// Copyright (c) 2018-2022 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -52,15 +52,7 @@ describe('EmailGenerator', () => {
     }));
 
     // Act
-    const prepareMail = emailGenerator.generate(
-      subject,
-      body,
-      branch,
-      from,
-      to,
-      sender,
-      email
-    );
+    const prepareMail = emailGenerator.generate(subject, body, branch, from, to, sender, email);
 
     // Assert
     expect(prepareMail).toMatchSnapshot();

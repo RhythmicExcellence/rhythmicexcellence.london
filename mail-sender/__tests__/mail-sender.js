@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
+// Copyright (c) 2018-2022 AndreaSonny <andreasonny83@gmail.com> (https://github.com/andreasonny83)
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -71,15 +71,7 @@ describe('MailSender', () => {
       await mailSender.send(mockEmailObject);
 
       // Assert
-      expect(fakeGenerate).toHaveBeenCalledWith(
-        subject,
-        body,
-        branch,
-        from,
-        to,
-        sender,
-        email
-      );
+      expect(fakeGenerate).toHaveBeenCalledWith(subject, body, branch, from, to, sender, email);
     });
 
     it('should send an email using SES', async () => {
@@ -100,9 +92,7 @@ describe('MailSender', () => {
 
     it('should throw an error when SES fails to send the email', async () => {
       // Arrange
-      fakeSendEmailPromise.mockImplementationOnce(() =>
-        Promise.reject('Some Error')
-      );
+      fakeSendEmailPromise.mockImplementationOnce(() => Promise.reject('Some Error'));
       const mockEmailObject = {
         subject: 'subject',
         body: 'body',
