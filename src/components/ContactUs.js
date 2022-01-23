@@ -17,15 +17,16 @@ export class ContactUs extends Component {
 
   nameFieldRef = React.createRef();
 
-  validateField = (field) => {
+  validateField = field => {
     return field && field.length > 1;
-  }
+  };
 
-  handleFieldChange = (evt) => {
+  handleFieldChange = evt => {
+    console.warn('change');
     this.setState({
       [evt.target.id]: evt.target.value,
     });
-  }
+  };
 
   resetForm = () => {
     this.setState({
@@ -36,7 +37,7 @@ export class ContactUs extends Component {
     });
 
     this.nameFieldRef.current.focus();
-  }
+  };
 
   formSubmitted = (successful = false) => {
     this.setState({ isWaiting: false });
@@ -49,9 +50,9 @@ export class ContactUs extends Component {
     alert(
       'Message failed to send. Please make sure all the mandatory fields are filled, then try again.'
     );
-  }
+  };
 
-  handleSubmit = (e) => {
+  handleSubmit = e => {
     e.preventDefault();
 
     const { name, email, branch, message } = this.state;
@@ -68,7 +69,7 @@ export class ContactUs extends Component {
         this.formSubmitted();
       })
       .catch(_ => this.formSubmitted());
-  }
+  };
 
   render() {
     const { name, email, branch, message, isWaiting } = this.state;

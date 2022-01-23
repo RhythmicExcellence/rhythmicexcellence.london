@@ -19,8 +19,12 @@ export const TeamMember = ({
 }) => (
   <div className={`TeamMember ${show ? 'show' : ''} ${active ? 'active' : ''}`}>
     <div
+      role="button"
+      aria-label="team member"
+      tabIndex="-1"
       className={active ? 'TeamMember__background visible' : 'TeamMember__background'}
       onClick={() => onDismiss()}
+      onKeyDown={() => onDismiss()}
     />
     <div className="TeamMember__container">
       <div className="TeamMember__dismiss">
@@ -30,7 +34,14 @@ export const TeamMember = ({
           </div>
         </button>
       </div>
-      <div className="TeamMember__container__content" onClick={() => onActive(id)}>
+      <div
+        role="button"
+        aria-label="dismiss"
+        tabIndex="-1"
+        className="TeamMember__container__content"
+        onClick={() => onActive(id)}
+        onKeyDown={() => onActive(id)}
+      >
         <div className="TeamMember__container__picture">
           <div className="TeamMember__avatar" style={{ backgroundImage: `URL(${picture})` }} />
         </div>
