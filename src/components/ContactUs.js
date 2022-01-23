@@ -22,7 +22,6 @@ export class ContactUs extends Component {
   };
 
   handleFieldChange = evt => {
-    console.warn('change');
     this.setState({
       [evt.target.id]: evt.target.value,
     });
