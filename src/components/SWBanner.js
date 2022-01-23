@@ -49,7 +49,13 @@ export class SWBanner extends PureComponent {
         {this.state.show && (
           <div className="container">
             A new version of RhythmicExcellence is available. Click{' '}
-            <span className="click-here" onClick={this.reload}>
+            <span
+              tabIndex="-1"
+              role="link"
+              className="click-here"
+              onClick={this.reload}
+              onKeyDown={this.reload}
+            >
               here
             </span>{' '}
             to update.
@@ -61,5 +67,5 @@ export class SWBanner extends PureComponent {
 
   showUpdateBar = () => {
     this.setState({ show: true });
-  }
+  };
 }
