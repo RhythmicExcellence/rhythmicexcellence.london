@@ -1,6 +1,6 @@
 ---
 published: true
-position: 9
+position: 5
 title: Simona Martini
 titles: |
   Qualified Ballet Coach
