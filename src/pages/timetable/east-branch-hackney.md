@@ -9,6 +9,7 @@ tuesday: |
 wednesday: |
   17:00 - 21:00 - Squad
   17:00 - 19:00 - Foundation Squad
+  17:00 - 18:30 - Recreational
 thursday: ""
 friday: |+
   11:00 - 16:00 - Academy
