@@ -1,15 +1,15 @@
 ---
 published: true
 title: English Championships 2022
-date: 2022-05-09T14:51:56.865Z
+date: 2022-05-08T14:51:56.865Z
 ---
-Huge congratulations to our senior group for becoming English Vice Champions 2022!
+Huge congratulations to our senior group for becoming **English Vice Champions 2022**!
 
 Big well done to Adriana, Elizabeth, Amane, Dana and Emilia and coach Becca, we are extremely proud!
 
-Massive congrats to Rhiann for the great competition and for qualifying for the hoop final, well done and keep up with the hard work!
+Massive congrats to **Rhiann** for the great competition and for qualifying for the hoop final, well done and keep up with the hard work!
 
-Next stop: The British Championships!
+Next stop: *The British Championships!*
 
 ![](/assets/279385949_4940979645999924_4766444259897569209_n.jpg)
 
