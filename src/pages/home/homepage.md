@@ -45,4 +45,5 @@ Picture by GBDANCESTARS
 
 ***Upcoming event***  
 
-* **Monday 6th September** - New Season's first training day
+*  **May 20th, 21st & 22nd** - The British Championships
+* **July 1st, 2nd & 3rd** - NDP Finals and Group league
