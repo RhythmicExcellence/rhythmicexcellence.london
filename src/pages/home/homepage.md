@@ -8,7 +8,7 @@ title: Rhythmic Excellence
 
 ***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2007, 2006, 2005 to enter our senior group, gymnasts born in 2010, 2009 and 2008 to enter our junior group and gymnasts born in 2011, 2012 and 2013 to enter our espoir group.***
 
-![](/assets/screenshot-2021-06-30-at-15.25.55.png)
+![](/assets/unnamed-3-.png)
 
 - - -
 
@@ -45,5 +45,5 @@ Picture by GBDANCESTARS
 
 ***Upcoming event***  
 
-*  **May 20th, 21st & 22nd** - The British Championships
+* **May 20th, 21st & 22nd** - The British Championships
 * **July 1st, 2nd & 3rd** - NDP Finals and Group league
