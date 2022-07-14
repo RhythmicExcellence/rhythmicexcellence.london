@@ -1,21 +1,43 @@
 ---
 published: true
 position: 3
-title: Adult Rhythmic Gymnastics
+title: Adult Courses
 ---
 Adult Gymnastics provides a new opportunity to try out an amazing sport. Build your strength, flexibility and control and test yourself in a range of different activities.
 
-The minimum age to attend the course is 15.
+There are currently 3 adult courses:
 
-Our monthly fee is:
+* *Adult recreational* 
+* *Adult group*
+* *Adult competitive* 
 
-1 day per week - £75\
-\
-Please enquiry to receive further information
 
-## Our timetable
 
-**Friday** 6-7:30 at SPACe
+The minimum age to attend the courses is 15.
+
+
+
+**Adult recreational**
+
+Timetable: Monday 6:00 - 7:30\
+Monthly fee: £80
+
+
+
+**Adult group competitive**
+
+Timetable: Tuesday 18:00 - 20:30\
+                   Friday 18:30 - 21:00\
+Monthly fee: £135 (2 classes per week)
+
+
+
+**Adult individual competitive**
+
+Timetable: Tuesday 18:00 - 20:30\
+                   Friday 18:30 - 21:00 \
+                   Sat 12:00 - 14:30\
+Monthly fee: £155 (3 classes per week)
 
 ![adult gymnastics](/assets/img_4426.jpg)
 
