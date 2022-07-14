@@ -5,7 +5,7 @@ title: Madison Kennelly
 titles: |-
   UKCC Level 1 Rhythmic Gymnastics Coach
   UKCC Level 0 General Gymnastics Coach
-avatar: /assets/rhythmicexcellence-copy.jpg
+avatar: /assets/whatsapp-image-2022-07-14-at-11.50.19-am.jpeg
 details: >-
   Ex-elite rhythmic gymnast who represented GB in 2017 in Estonia Miss Valentine
   and Greece . 
