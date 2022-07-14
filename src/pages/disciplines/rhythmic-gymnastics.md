@@ -1,7 +1,7 @@
 ---
 published: true
 position: 1
-title: Rhythmic Gymnastics
+title: Competitive Rhythmic Gymnastics
 ---
 Rhythmic Gymnastics is the perfect combination of sport and art, linking expressive dance steps with skilful manipulations of the rope, hoop, ball, clubs and ribbon to be performed individually or as part of a group.
 
@@ -22,6 +22,6 @@ Season 2021/2022
 * **Squad** Selected gymnasts only - Level 3, 4 and 5
 * **Foundation Squad** Selected gymnasts only - preparation for level 3, 4 and 5
 
-![Saffron Severn at the British Championships 2018](/assets/disciplines-rhythmic-gymnastics.jpg)
+![Saffron Severn at the FIG international Tournament Gracia Cup - Budapest HUN 2022](/assets/b2b27c97-94a5-4bb2-b3fb-86a1b7bf0fcd_original.jpeg)
 
 <img src="/assets/british-gymnastics-logo.png" alt="British Gymnastics logo" style="width:300px;border-radius:0;" />
