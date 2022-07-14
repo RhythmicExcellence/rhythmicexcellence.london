@@ -1,6 +1,6 @@
 ---
 published: true
-title: East Branch - Hoxton 2022/23 (from Sept 22)
+title: Hoxton 2022/23 (from Sept 22)
 monday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
