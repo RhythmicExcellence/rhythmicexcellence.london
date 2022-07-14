@@ -1,7 +1,7 @@
 ---
 published: true
 position: 3
-title: Adult Courses
+title: Adult RG Courses
 ---
 Adult Gymnastics provides a new opportunity to try out an amazing sport. Build your strength, flexibility and control and test yourself in a range of different activities.
 
