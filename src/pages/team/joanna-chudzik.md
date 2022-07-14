@@ -1,6 +1,6 @@
 ---
 published: true
-position: 4
+position: 6
 title: Joanna (Asia) Chudzik
 titles: |-
   UKCC Level 1 Coach
