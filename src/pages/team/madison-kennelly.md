@@ -1,6 +1,6 @@
 ---
 published: true
-position: 6
+position: 4
 title: Madison Kennelly
 titles: |-
   UKCC Level 1 Rhythmic Gymnastics Coach
