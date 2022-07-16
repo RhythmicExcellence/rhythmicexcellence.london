@@ -6,7 +6,7 @@ title: Rhythmic Excellence
 
 ## ***Rhythmic Excellence is ready for the new season!  Check out our new [timetable page](https://www.rhythmicexcellence.london/timetable) and check your inbox, don't miss your chance to enroll with priority and discount!***
 
-***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2007, 2006, 2005 to enter our senior group, gymnasts born in 2010, 2009 and 2008 to enter our junior group and gymnasts born in 2011, 2012 and 2013 to enter our espoir group.***
+***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2008 or older to enter our senior group, gymnasts born in 2011, 2010 and 2009 to enter our junior group and gymnasts born in 2012, 2013 and 2014 to enter our espoir group.***
 
 ![](/assets/unnamed-3-.png)
 
