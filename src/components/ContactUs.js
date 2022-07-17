@@ -4,13 +4,12 @@ import { API_ROOT } from '../config';
 
 import './ContactUs.css';
 
-const BRANCHES = ['KENSINGTON', 'HACKNEY'];
+const BRANCH = 'HACKNEY';
 
 export class ContactUs extends Component {
   state = {
     name: '',
     email: '',
-    branch: '',
     message: '',
     isWaiting: false,
   };
@@ -31,7 +30,6 @@ export class ContactUs extends Component {
     this.setState({
       name: '',
       email: '',
-      branch: '',
       message: '',
     });
 
@@ -54,8 +52,8 @@ export class ContactUs extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    const { name, email, branch, message } = this.state;
-    const data = { sender: name, branch, email, body: message };
+    const { name, email, message } = this.state;
+    const data = { sender: name, branch: BRANCH, email, body: message };
 
     this.setState({ isWaiting: true });
 
@@ -71,9 +69,9 @@ export class ContactUs extends Component {
   };
 
   render() {
-    const { name, email, branch, message, isWaiting } = this.state;
+    const { name, email, message, isWaiting } = this.state;
     const isSubmitEnabled =
-      [name, email, branch, message].reduce((prev, cur) => prev && this.validateField(cur), true) &&
+      [name, email, message].reduce((prev, cur) => prev && this.validateField(cur), true) &&
       !isWaiting;
 
     return (
@@ -102,26 +100,6 @@ export class ContactUs extends Component {
                 value={email}
                 onChange={this.handleFieldChange}
               />
-            </div>
-            <div className="form-group">
-              <label htmlFor="branch">*Branch</label>
-              <select
-                className="form-control"
-                id="branch"
-                value={branch}
-                onChange={this.handleFieldChange}
-              >
-                <option value="">--Select a Branch--</option>
-                {BRANCHES.map((value, key) => {
-                  let label = value.toLowerCase();
-                  label = label.charAt(0).toUpperCase() + label.substr(1);
-                  return (
-                    <option key={key} value={value}>
-                      {label}
-                    </option>
-                  );
-                })}
-              </select>
             </div>
             <div className="form-group">
               <label htmlFor="message">*Message</label>
