@@ -40,7 +40,6 @@ describe('EmailGenerator', () => {
     // Arrange
     const emailGenerator = new EmailGenerator();
     const subject = 'test email';
-    const branch = 'Earth';
     const from = 'fake_user@mail.com';
     const sender = 'Heisenberg';
     const email = 'heisenberg@crystal.blue';
@@ -52,7 +51,7 @@ describe('EmailGenerator', () => {
     }));
 
     // Act
-    const prepareMail = emailGenerator.generate(subject, body, branch, from, to, sender, email);
+    const prepareMail = emailGenerator.generate(subject, body, from, to, sender, email);
 
     // Assert
     expect(prepareMail).toMatchSnapshot();

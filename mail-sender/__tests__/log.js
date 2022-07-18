@@ -36,12 +36,16 @@ describe('Log', () => {
       log: jest.fn(),
     };
 
+    const expectedTitle = 'testTitle';
+    const expectedBody = 'testBody';
+
     // Act
-    log.info('test');
+    log.info(expectedTitle, expectedBody);
 
     // Assert
-    expect(console.log).toHaveBeenCalledTimes(1);
-    expect(console.log).toHaveBeenCalledWith('test');
+    expect(console.log).toHaveBeenCalledTimes(2);
+    expect(console.log).toHaveBeenNthCalledWith(1, expectedTitle);
+    expect(console.log).toHaveBeenNthCalledWith(2, expectedBody);
   });
 
   it(`should print both a message and a variable, if specified`, () => {

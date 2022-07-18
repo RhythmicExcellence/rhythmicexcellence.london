@@ -39,7 +39,7 @@ class EmailGenerator {
     return message;
   }
 
-  _generateBody(isHtml, sender, from, branch, body) {
+  _generateBody(isHtml, sender, from, body) {
     const date = new Date().toUTCString();
     const footer = `
     This is an automatic e-mail generated from ${(isHtml &&
@@ -72,7 +72,6 @@ class EmailGenerator {
                       <br />
                       Date: ${date}<br/>
                       From: ${from}<br/>
-                      Branch: ${branch}<br/>
                     </td></tr>
                   </table>
                 </td></tr>
@@ -110,7 +109,6 @@ class EmailGenerator {
       `
       From: ${from} <${sender}> <br/>
       Date: ${date} <br/>
-      Branch: ${branch} <br/>
       Message: ${body} <br/>
       Footer: ${footer} <br/>
       `;
@@ -118,10 +116,10 @@ class EmailGenerator {
     return message;
   }
 
-  _generate(charset, subject, body, branch, from, to, sender, email) {
+  _generate(charset, subject, body, from, to, sender, email) {
     const Charset = charset;
-    const messageHtml = this._generateBody(true, sender, email, branch, body);
-    const messageText = this._generateBody(false, sender, email, branch, body);
+    const messageHtml = this._generateBody(true, sender, email, body);
+    const messageText = this._generateBody(false, sender, email, body);
 
     return {
       Destination: {

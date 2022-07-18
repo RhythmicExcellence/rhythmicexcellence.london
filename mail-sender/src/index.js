@@ -11,19 +11,18 @@ const { Log } = require('./log');
 const { validateEmail, validateField, sanitize } = require('./validators');
 
 module.exports = async (sendMailData) => {
-  const { data, from, to, subject, confirmationSender, confirmationSubject, debug } = sendMailData;
+  const { data = {}, from = '', to = '', subject = '', confirmationSender, confirmationSubject, debug } = sendMailData;
 
   const log = new Log(debug);
 
   log.info('event data received', sendMailData);
 
-  const { sender, email, body, branch } = data;
+  const { sender = '', email = '', body = '' } = data;
 
   // Sanitize input
   const emailObject = {
     subject: sanitize(subject),
     body: sanitize(body),
-    branch: sanitize(branch),
     from: sanitize(from),
     to: sanitize(to),
     sender: sanitize(sender),

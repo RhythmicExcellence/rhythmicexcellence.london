@@ -9,8 +9,8 @@ class Log {
   }
 
   info(title, body) {
-    console.log(title);
     if (this.debugStatus && body) {
+      console.log(title);
       console.log(body);
     }
   }

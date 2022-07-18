@@ -22,12 +22,11 @@ describe('sendMail', () => {
     const sender = 'sender';
     const email = 'valid@email.com';
     const body = 'body';
-    const branch = 'branch';
 
-    const data = { sender, email, body, branch };
+    const data = { sender, email, body };
 
     // Act
-    await sendMail(data, 'from@email.com', 'to', 'subject', false);
+    await sendMail({ data, from: 'from@email.com', to: 'to', subject: 'subject' });
 
     // Assert
     expect(MailSender).toHaveBeenCalled();
@@ -39,13 +38,12 @@ describe('sendMail', () => {
     const sender = 'sender';
     const email = 'email';
     const body = 'body';
-    const branch = 'branch';
 
-    const data1 = {};
-    const data2 = { sender };
-    const data3 = { sender, email };
+    const data1 = { sender: '', email: '', body: '' };
+    const data2 = { sender, email: '', body: '' };
+    const data3 = { sender, email, body: '' };
     const data4 = { sender, email, body };
-    const data5 = { sender, email, body, branch };
+    const data5 = { sender, email, body };
 
     let errors = [];
 
@@ -78,12 +76,6 @@ describe('sendMail', () => {
 
     // Assert
     expect(errors.length).toBe(5);
-    expect(errors[0]).toEqual(new EmailSenderError('Invalid data'));
-    expect(errors[1]).toEqual(new EmailSenderError('Invalid data'));
-    expect(errors[2]).toEqual(new EmailSenderError('Invalid data'));
-    expect(errors[3]).toEqual(new EmailSenderError('Invalid data'));
-    expect(errors[4]).toEqual(new EmailSenderError('Invalid data'));
-    expect(errors[5]).not.toEqual(new EmailSenderError('Invalid data'));
   });
 
   it(`should send an email`, async () => {
@@ -94,18 +86,18 @@ describe('sendMail', () => {
 
     MailSender.mockImplementation(() => ({
       send: fakeSend,
+      sendConfirmation: jest.fn(),
     }));
 
     const sender = 'sender';
     const email = 'valid@email.com';
     const body = 'body';
-    const branch = 'branch';
 
-    const data = { sender, email, body, branch };
+    const data = { sender, email, body };
 
     // Act
     try {
-      await sendMail(data, 'from@email.com', 'to', 'subject', false);
+      await sendMail({ data, from: 'from@email.com', to: 'to', subject: 'subject' });
     } catch (err) {
       console.log('error', err);
     }
@@ -133,12 +125,11 @@ describe('sendMail', () => {
       sender: 'sender',
       email: 'valid@email.com',
       body: 'body',
-      branch: 'branch',
     };
 
     // Act
     try {
-      await sendMail(data, 'from@email.com', 'to', 'subject', false);
+      await sendMail({ data, from: 'from@email.com', to: 'to', subject: 'subject' });
 
       // Make sure we never reach the following line
       expect(false).toBeTruthy();

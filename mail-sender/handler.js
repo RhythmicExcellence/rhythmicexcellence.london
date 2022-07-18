@@ -10,9 +10,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const from = process.env.FROM;
-const toTestEmail = process.env.EMAIL_TEST;
-const toKensington = process.env.EMAIL_KENSINGTON;
-const toHackney = process.env.EMAIL_HACKNEY;
+const to = process.env.EMAIL_HACKNEY;
 const subject = process.env.SUBJECT;
 const confirmationSender = process.env.CONFIRMATION_SENDER;
 const confirmationSubject = process.env.CONFIRMATION_SUBJECT;
@@ -43,7 +41,7 @@ const returnCallback = (body, statusCode = 500, cors = false, origin = '') => {
   };
 };
 
-module.exports.send = async (event, context) => {
+module.exports.send = async (event, _context) => {
   const { headers, body } = event;
   const origin = headers.Origin || headers.origin;
 
@@ -64,13 +62,6 @@ module.exports.send = async (event, context) => {
       message: 'body is missing in the event or is not parsable to JSON.\n' + err.message || err,
     });
   }
-
-  const { branch } = data;
-  const trimmedBranch = `${branch}`.trim().toLowerCase();
-  const to =
-    (trimmedBranch === 'kensington' && toKensington) ||
-    (trimmedBranch === 'hackney' && toHackney) ||
-    (trimmedBranch === 'test' && toTestEmail);
 
   try {
     await sendMail({

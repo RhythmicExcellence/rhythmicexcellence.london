@@ -52,7 +52,6 @@ describe('MailSender', () => {
       // Arrange
       const subject = 'subject';
       const body = 'body';
-      const branch = 'branchName';
       const from = 'from';
       const to = 'to';
       const sender = 'Heisenberg';
@@ -60,7 +59,6 @@ describe('MailSender', () => {
       const mockEmailObject = {
         subject,
         body,
-        branch,
         from,
         to,
         sender,
@@ -71,7 +69,7 @@ describe('MailSender', () => {
       await mailSender.send(mockEmailObject);
 
       // Assert
-      expect(fakeGenerate).toHaveBeenCalledWith(subject, body, branch, from, to, sender, email);
+      expect(fakeGenerate).toHaveBeenCalledWith(subject, body, from, to, sender, email);
     });
 
     it('should send an email using SES', async () => {

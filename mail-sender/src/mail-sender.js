@@ -10,8 +10,8 @@ class MailSender {
   }
 
   async send(emailObject) {
-    const { subject, body, branch, from, to, sender, email } = emailObject;
-    const emailFormattedObject = this._prepareEmail(subject, body, branch, from, to, sender, email);
+    const { subject, body, from, to, sender, email } = emailObject;
+    const emailFormattedObject = this._prepareEmail(subject, body, from, to, sender, email);
 
     try {
       await this._sendEmail(emailFormattedObject);
@@ -35,8 +35,8 @@ class MailSender {
     return await this.ses.sendEmail(emailObject).promise();
   }
 
-  _prepareEmail(subject, body, branch, from, to, sender, email) {
-    return this.emailGenerator.generate(subject, body, branch, from, to, sender, email);
+  _prepareEmail(subject, body, from, to, sender, email) {
+    return this.emailGenerator.generate(subject, body, from, to, sender, email);
   }
 
   _prepareConfirmationEmail(subject, from, to) {
