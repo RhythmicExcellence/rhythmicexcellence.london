@@ -20,8 +20,8 @@ const MapComponent = withScriptjs(
         <Marker position={{ lat: 51.5300666, lng: -0.0781743 }}>
           <InfoWindow>
             <div>
-              <p>Hackney Branch</p>
-              <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/dNJHea5Y1SA2">
+              <p>Rhythmic Excellence</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/q1jVjWsgYN32">
                 Open in Google Maps
               </a>
             </div>
