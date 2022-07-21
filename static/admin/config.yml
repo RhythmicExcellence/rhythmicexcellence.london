@@ -116,7 +116,7 @@ collections:
       - { name: 'body', label: 'More details', widget: 'markdown', required: false }
 
   - name: 'disciplines'
-    label: 'Disciplines'
+    label: 'Courses'
     folder: 'src/pages/disciplines'
     create: true
     fields:

@@ -108,7 +108,7 @@ const Layout = ({ children }) => {
               <Menu />
               {children}
               <Footer
-                disciplines={data.disciplines.edges}
+                courses={data.disciplines.edges}
                 legals={data.legals.edges}
                 socials={data.socials.edges}
               />

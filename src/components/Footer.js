@@ -29,7 +29,7 @@ const renderIcon = iconName => {
   }
 };
 
-export const Footer = ({ disciplines, legals, socials }) => (
+export const Footer = ({ courses, legals, socials }) => (
   <div className="Footer">
     <div className="container">
       <div className="grid__container">
@@ -40,9 +40,9 @@ export const Footer = ({ disciplines, legals, socials }) => (
         <div className="grid__column">
           <h4>Courses</h4>
           <ul>
-            {disciplines.map(discipline => (
-              <li key={discipline.node.id}>
-                <Link to={discipline.node.fields.slug}>{discipline.node.frontmatter.title}</Link>
+            {courses.map(course => (
+              <li key={course.node.id}>
+                <Link to={course.node.fields.slug}>{course.node.frontmatter.title}</Link>
               </li>
             ))}
           </ul>
@@ -106,7 +106,7 @@ export const Footer = ({ disciplines, legals, socials }) => (
 );
 
 Footer.propTypes = {
-  disciplines: propTypes.any.isRequired,
+  courses: propTypes.any.isRequired,
   legals: propTypes.any.isRequired,
   socials: propTypes.any.isRequired,
 };
