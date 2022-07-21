@@ -1,5 +1,5 @@
 .ContactUs {
-  padding: 1.25rem 0;
+  padding: 2rem 0;
 
   & form {
     display: flex;
@@ -13,7 +13,7 @@
 
     @media all and (min-width: 600px) {
       padding: 1.5em;
-      box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.16);
+      box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.16);
     }
   }
 

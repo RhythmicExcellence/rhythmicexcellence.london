@@ -38,7 +38,7 @@ export const Footer = ({ disciplines, legals, socials }) => (
         </div>
 
         <div className="grid__column">
-          <h4>Disciplines</h4>
+          <h4>Courses</h4>
           <ul>
             {disciplines.map(discipline => (
               <li key={discipline.node.id}>
@@ -79,10 +79,9 @@ export const Footer = ({ disciplines, legals, socials }) => (
 
           <div>
             &copy; Copyright 2018-{new Date().getFullYear() + ' '}
-            <a href="https://about.me/andreasonny83" target="_blank" rel="noopener noreferrer">
-              Sonny
-            </a>{' '}
-            - All Rights Reserved
+            Rhythmic Excellence
+            <br />
+            All Rights Reserved
           </div>
         </div>
         <div className="grid__column social">

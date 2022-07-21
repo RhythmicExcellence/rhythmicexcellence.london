@@ -1,4 +1,4 @@
-.Disciplines__wrapper {
+.Courses__wrapper {
   position: relative;
   background-color: #7159fb;
   margin-top: 3rem;
@@ -29,7 +29,7 @@
     color: var(--white);
   }
 
-  & .Disciplines {
+  & .Courses {
     display: grid;
     margin: 4em auto;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -49,7 +49,7 @@
       }
     }
 
-    & .Discipline {
+    & .Course {
       display: flex;
       flex-direction: column;
       align-items: center;

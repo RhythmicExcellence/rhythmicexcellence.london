@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql, withPrefix } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 import { CookiesProvider } from 'react-cookie';
 
 import '../reset.css';
@@ -14,10 +14,9 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { CookiePolicy } from '../components/CookiePolicy';
 import { SWBanner } from '../components/SWBanner';
+import { Menu } from '../components/Menu';
 
-const Layout = ({ children, location }) => {
-  const isHomepage = location && location.pathname === withPrefix('/');
-
+const Layout = ({ children }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -105,15 +104,14 @@ const Layout = ({ children, location }) => {
           <CookiesProvider>
             <main>
               <Navbar />
-              {!isHomepage && <Topbar />}
+              <Topbar />
+              <Menu />
               {children}
-              {!isHomepage && (
-                <Footer
-                  disciplines={data.disciplines.edges}
-                  legals={data.legals.edges}
-                  socials={data.socials.edges}
-                />
-              )}
+              <Footer
+                disciplines={data.disciplines.edges}
+                legals={data.legals.edges}
+                socials={data.socials.edges}
+              />
             </main>
             <CookiePolicy />
             <SWBanner />

@@ -1,0 +1,23 @@
+.Menu {
+  display: flex;
+  width: 100%;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+  flex-direction: row;
+  background-color: var(--topbar);
+  border-bottom: 1px white solid;
+
+  & a {
+    color: var(--white);
+    padding: 0.25rem;
+    text-decoration: none;
+
+    &.selected {
+      font-weight: bold;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
