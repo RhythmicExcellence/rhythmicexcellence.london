@@ -1,18 +1,4 @@
 .Hero {
-  & h1 {
-    margin: 0;
-    color: var(--white);
-    font-size: 1.2rem;
-    line-height: 2.5rem;
-
-    @media all and (min-width: 420px) {
-      font-size: 1.4rem;
-    }
-    @media all and (min-width: 600px) {
-      font-size: 1.5rem;
-    }
-  }
-
   & .hero-bg {
     background: url('/img/home_background.png');
     background-repeat: no-repeat;
@@ -21,38 +7,10 @@
     min-height: 14rem;
     padding: 5rem 1rem 4rem;
     text-align: center;
-
-    opacity: 0;
-    transform: translateY(-3px);
-    transition: opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  }
-
-  & .home-link {
-    position: absolute;
-    top: 0.9em;
-    left: 1em;
-    color: var(--white);
-    text-decoration: none;
-  }
-
-  & .home-link:hover {
-    opacity: 0.75;
   }
 
   & .hero-logo {
     max-height: 50vh;
     margin-bottom: 4%;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 250ms;
-  }
-
-  & .hero-bg.show {
-    opacity: 1;
-  }
-
-  & .hero-logo.show {
-    opacity: 1;
-    transform: translateY(0);
   }
 }

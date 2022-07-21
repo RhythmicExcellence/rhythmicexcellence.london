@@ -1,47 +1,52 @@
-import React, { Component } from 'react';
+import React, { useState, useRef } from 'react';
 import axios from 'axios';
 import { API_ROOT } from '../config';
 
 import './ContactUs.css';
 
-const BRANCH = 'HACKNEY';
+const initialState = {
+  name: '',
+  email: '',
+  message: '',
+  isWaiting: false,
+};
 
-export class ContactUs extends Component {
-  state = {
-    name: '',
-    email: '',
-    message: '',
-    isWaiting: false,
-  };
+export const ContactUs = () => {
+  const [state, setState] = useState(initialState);
+  const nameFieldRef = useRef();
 
-  nameFieldRef = React.createRef();
-
-  validateField = field => {
+  const validateField = field => {
     return field && field.length > 1;
   };
 
-  handleFieldChange = evt => {
-    this.setState({
-      [evt.target.id]: evt.target.value,
-    });
+  const handleFieldChange = evt => {
+    const fieldName = evt.target?.id;
+    const value = evt.target?.value;
+
+    if (fieldName && value) {
+      setState(currState => ({
+        ...currState,
+        [fieldName]: value,
+      }));
+    }
   };
 
-  resetForm = () => {
-    this.setState({
+  const resetForm = () => {
+    setState({
       name: '',
       email: '',
       message: '',
     });
 
-    this.nameFieldRef.current.focus();
+    nameFieldRef.current.focus();
   };
 
-  formSubmitted = (successful = false) => {
-    this.setState({ isWaiting: false });
+  const formSubmitted = (successful = false) => {
+    setState({ isWaiting: false });
 
     if (successful) {
       alert('Message Sent.');
-      return this.resetForm();
+      return resetForm();
     }
 
     alert(
@@ -49,74 +54,60 @@ export class ContactUs extends Component {
     );
   };
 
-  handleSubmit = e => {
+  const handleSubmit = e => {
     e.preventDefault();
 
-    const { name, email, message } = this.state;
-    const data = { sender: name, branch: BRANCH, email, body: message };
+    const { name, email, message } = state;
+    const data = { sender: name, email, body: message };
 
-    this.setState({ isWaiting: true });
+    setState({ isWaiting: true });
 
     axios({ method: 'POST', url: `${API_ROOT}/send`, data })
       .then(response => {
         if (response.data.status === 'success') {
-          return this.formSubmitted(true);
+          return formSubmitted(true);
         }
 
-        this.formSubmitted();
+        formSubmitted();
       })
-      .catch(_ => this.formSubmitted());
+      .catch(_ => formSubmitted());
   };
 
-  render() {
-    const { name, email, message, isWaiting } = this.state;
-    const isSubmitEnabled =
-      [name, email, message].reduce((prev, cur) => prev && this.validateField(cur), true) &&
-      !isWaiting;
+  const { name, email, message, isWaiting } = state;
+  const isSubmitEnabled =
+    [name, email, message].reduce((prev, cur) => prev && validateField(cur), true) && !isWaiting;
 
-    return (
-      <div className="ContactUs">
-        <h2 className="title">Stay in touch with us</h2>
-        <p className="sub-title">Send us your questions</p>
-        <div className="container">
-          <form id="contact-form" onSubmit={this.handleSubmit} method="POST">
-            <div className="form-group">
-              <label htmlFor="name">*Name</label>
-              <input
-                ref={this.nameFieldRef}
-                type="text"
-                className="form-control"
-                id="name"
-                value={name}
-                onChange={this.handleFieldChange}
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email">*Email address</label>
-              <input
-                type="email"
-                className="form-control"
-                id="email"
-                value={email}
-                onChange={this.handleFieldChange}
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">*Message</label>
-              <textarea
-                className="form-control"
-                rows="5"
-                id="message"
-                value={message}
-                onChange={this.handleFieldChange}
-              />
-            </div>
-            <button type="submit" className="button" disabled={!isSubmitEnabled}>
-              Submit
-            </button>
-          </form>
-        </div>
+  return (
+    <div className="ContactUs">
+      <h2 className="title" id="contact-us">
+        Stay in touch with us
+      </h2>
+      <p className="sub-title">Send us your questions</p>
+      <div className="container">
+        <form id="contact-form" onSubmit={handleSubmit} method="POST">
+          <div className="form-group">
+            <label htmlFor="name">*Name</label>
+            <input
+              ref={nameFieldRef}
+              type="text"
+              className="form-control"
+              id="name"
+              onChange={handleFieldChange}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">*Email address</label>
+            <input type="email" className="form-control" id="email" onChange={handleFieldChange} />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">*Message</label>
+            <textarea className="form-control" rows="5" id="message" onChange={handleFieldChange} />
+          </div>
+          <button type="submit" className="button" disabled={!isSubmitEnabled}>
+            Submit
+          </button>
+        </form>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};

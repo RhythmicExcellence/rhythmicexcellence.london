@@ -82,19 +82,6 @@ p + p {
   background-color: var(--white-light);
 }
 
-.Home__content {
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-  transition: opacity 750ms ease-in;
-  will-change: opacity;
-}
-
-.ready .Home__content {
-  opacity: 1;
-  height: initial;
-}
-
 .otro-blockquote {
   font-size: 1em;
   width:95%;

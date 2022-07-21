@@ -6,7 +6,7 @@ import Layout from '../layouts/index';
 const Legal = ({ data }) => (
   <Layout>
     <div className="container">
-      <h1>Our Disciplines</h1>
+      <h1>Our Courses</h1>
 
       {data.allMarkdownRemark.edges.map((legal, id) => (
         <div key={id}>
