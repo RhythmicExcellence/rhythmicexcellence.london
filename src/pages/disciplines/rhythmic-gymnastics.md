@@ -1,7 +1,7 @@
 ---
 published: true
 position: 1
-title: "Rhythmic Gymnastics - Competitive "
+title: Competitive Rhythmic Gymnastics Courses
 ---
 Rhythmic Gymnastics is the perfect combination of sport and art, linking expressive dance steps with skilful manipulations of the rope, hoop, ball, clubs and ribbon to be performed individually or as part of a group.
 
