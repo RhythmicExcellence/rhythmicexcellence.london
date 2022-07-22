@@ -17,10 +17,15 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 
 ![](/assets/img-20180513-wa0048.jpg)
 
-Season 2021/2022
+Season 2022/2023
 
-* **Squad** Selected gymnasts only - Level 3, 4 and 5
+* **Squad** **Individual** (espoir, junior and senior program) Selected gymnasts only - Level 4 and 5
+* **Squad Group** (espoir, junior and senior program)Selected gymnasts only - Level 4 and 5
 * **Foundation Squad** Selected gymnasts only - preparation for level 3, 4 and 5
+* **Adults competitive course** Selected gymnasts only - adult competitive program
+
+\
+Find our Timetable ***[here](https://www.rhythmicexcellence.london/timetable)***.
 
 ![Saffron Severn at the FIG international Tournament Gracia Cup - Budapest HUN 2022](/assets/b2b27c97-94a5-4bb2-b3fb-86a1b7bf0fcd_original.jpeg)
 
