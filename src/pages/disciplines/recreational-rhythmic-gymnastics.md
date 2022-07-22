@@ -21,12 +21,12 @@ We will teach the fundamentals of rhythmic gymnastics and ensure that children d
 
 Find our Timetable ***[here](https://www.rhythmicexcellence.london/timetable)***.
 
-![Saffron Severn at the FIG international Tournament Gracia Cup - Budapest HUN 2022](/assets/b2b27c97-94a5-4bb2-b3fb-86a1b7bf0fcd_original.jpeg)
+![]()
 
 ![](/assets/dan_3098.jpg)
 
-![Saffron Severn at the FIG international Tournament Gracia Cup - Budapest HUN 2022]()
+![]()
 
-![Saffron Severn at the FIG international Tournament Gracia Cup - Budapest HUN 2022]()
+![]()
 
 Picture by [](https://www.instagram.com/gbswimstars_gbdancestars/?hl=en)[Dan Pickard](http://danpickard.com/)
