@@ -1,7 +1,7 @@
 ---
 published: true
 position: 2
-title: Recreational RG Courses
+title: Recreational Rhythmic Gymnastics Courses
 ---
 Our recreational classes are opened to children from 4 years old up.
 
