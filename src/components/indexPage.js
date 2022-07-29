@@ -39,7 +39,7 @@ export const IndexPage = ({ data, apiKey, height, zoom }) => {
 
 IndexPage.propTypes = {
   data: propTypes.any.isRequired,
-  apiKey: propTypes.string.isRequired,
   height: propTypes.number.isRequired,
   zoom: propTypes.number.isRequired,
+  apiKey: propTypes.string,
 };

@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms';
+import CMS from 'netlify-cms-app';
 
 import { TeamPreview } from './team';
 import { TimetablePreview } from './timetable';
@@ -23,14 +23,10 @@ CMS.registerEditorComponent({
     };
   },
   toBlock: function(obj) {
-    return `<a class="youtubeVideo" href="https://youtu.be/${
-      obj.id
-    }"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
+    return `<a class="youtubeVideo" href="https://youtu.be/${obj.id}"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
   },
   toPreview: function(obj) {
-    return `<a class="youtubeVideo" href="https://youtu.be/${
-      obj.id
-    }"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
+    return `<a class="youtubeVideo" href="https://youtu.be/${obj.id}"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
   },
 });
 

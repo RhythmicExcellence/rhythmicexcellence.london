@@ -97,8 +97,34 @@ module.exports = {
         name: 'timetable',
       },
     },
-    'gatsby-transformer-remark',
-    'gatsby-remark-relative-images',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: 'assets',
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              staticFolderName: 'static',
+              include: ['featured'],
+              exclude: ['featured.skip'],
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {},
+          },
+        ],
+      },
+    },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
