@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 position: 6
 title: Joanna (Asia) Chudzik
 titles: |-
