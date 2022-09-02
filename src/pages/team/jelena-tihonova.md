@@ -1,6 +1,6 @@
 ---
 published: true
-position: 8
+position: 7
 title: Jelena Tihonova
 titles: |-
   Welfare Officer
