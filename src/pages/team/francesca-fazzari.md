@@ -3,6 +3,7 @@ published: true
 position: 5
 title: Simona Martini
 titles: |
+  UKCC Level 1 Rhythmic Gymnastics Coach
   Qualified Ballet Coach
   Qualified Fitness Instructor
   Former Royal Ballet dancer
