@@ -3,10 +3,10 @@ published: true
 position: 2
 title: Stefano Sirianni
 titles: |-
-  Ballet Teacher
   UKCC Level 2 Rhythmic Gymnastics Coach
-  National Judge
+  GBR Brevet Judge cat 4
   British Gymnastics Technical committee Member
+  Ballet Teacher
 avatar: /assets/dan_0023.jpg
 details: |-
   Fun and experienced ballet and modern dance teacher to students of all skill
