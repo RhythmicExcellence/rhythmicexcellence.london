@@ -2,11 +2,11 @@
 published: true
 title: Rhythmic Excellence
 ---
-![](/assets/re.png)
+![](/assets/re.jpg)
 
 ## ***Rhythmic Excellence is ready for the new season!  Check out our new [timetable page](https://www.rhythmicexcellence.london/timetable) and check your inbox, don't miss your chance to enroll with priority and discount!***
 
-***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2008 or older to enter our senior group, gymnasts born in 2011, 2010 and 2009 to enter our junior group and gymnasts born in 2012, 2013 and 2014 to enter our espoir group.***
+***We are currently [auditioning](https://www.instagram.com/p/COfA5AoBnEu/) level 4/5 gymnasts born in 2008 or older to enter our senior group, gymnasts born in 2012, 2011 and 2010 to enter our junior group and gymnasts born in 2015, 2014 and 2013 to enter our espoir group.***
 
 ![](/assets/unnamed-3-.png)
 
@@ -37,14 +37,11 @@ All our coaches, teachers, and volunteers are DBS checked; our coaches have also
 
 Gymnasts in our club must be registered with British Gymnastics.
 
-![](/assets/996cd590-b892-4ec7-9df6-9fb480d92f97.jpeg)
-
-Picture by GBDANCESTARS
+![](/assets/img_1934.jpg)
 
 - - -
 
 ***Upcoming event***  
 
-* **July 16th** - London Championships
-* **July 23rd** - RE open class & End of the Year Show
-* **August 4th to 6th** - Commonwealth Games
+* **September 5th** - Classes resume
+* **December 16th** - RE XMas Show
