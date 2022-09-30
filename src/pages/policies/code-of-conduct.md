@@ -1,5 +1,5 @@
 ---
 published: true
-title: Code Of Conduct
-file: /assets/code-of-conduct-policy.pdf
+title: 02. Child Protection Policy
+file: /assets/2.0-child-protection-policy.pdf
 ---
