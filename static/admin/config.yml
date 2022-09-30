@@ -140,3 +140,11 @@ collections:
       - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'policies'
+    label: 'Policies'
+    folder: 'src/pages/policies'
+    create: true
+    fields:
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { label: 'File', name: 'file', widget: 'file' }
