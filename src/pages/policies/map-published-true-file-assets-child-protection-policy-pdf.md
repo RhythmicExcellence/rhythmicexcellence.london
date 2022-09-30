@@ -1,5 +1,5 @@
 ---
 published: true
-title: Child Protection Policy
-file: /assets/child-protection-policy.pdf
+title: 01. Terms and Conditions
+file: /assets/1.0-terms-and-conditions.pdf
 ---
