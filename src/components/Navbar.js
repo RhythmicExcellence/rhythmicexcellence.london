@@ -35,6 +35,9 @@ export const Navbar = () => {
       <Link to="/#contact-us" activeClassName="selected">
         Contact Us
       </Link>
+      <Link to="/policies" activeClassName="selected">
+        Club Policies
+      </Link>
       <Link to="/legal" activeClassName="selected">
         Legal
       </Link>

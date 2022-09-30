@@ -96,6 +96,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         node,
         value: 'news',
       });
+    } else if (/^.+\/policies\/.+/.test(node.fileAbsolutePath)) {
+      // Dynamically add a `policies` category
+      createNodeField({
+        name: 'category',
+        node,
+        value: 'policies',
+      });
     } else if (/^.+\/disciplines\/.+/.test(node.fileAbsolutePath)) {
       // Dynamically add a `discipline` category to discipline pages
       createNodeField({

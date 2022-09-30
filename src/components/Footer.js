@@ -12,7 +12,7 @@ import { VERSION } from '../config';
 
 import './Footer.css';
 
-const renderIcon = iconName => {
+const renderIcon = (iconName) => {
   switch (iconName.toLowerCase()) {
     case 'facebook':
       return <IoLogoFacebook size="1.7em" />;
@@ -40,7 +40,7 @@ export const Footer = ({ courses, legals, socials }) => (
         <div className="grid__column">
           <h4>Courses</h4>
           <ul>
-            {courses.map(course => (
+            {courses.map((course) => (
               <li key={course.node.id}>
                 <Link to={course.node.fields.slug}>{course.node.frontmatter.title}</Link>
               </li>
@@ -60,13 +60,16 @@ export const Footer = ({ courses, legals, socials }) => (
             <li>
               <Link to="/news">News</Link>
             </li>
+            <li>
+              <Link to="/policies">Club Policies</Link>
+            </li>
           </ul>
         </div>
 
         <div className="grid__column">
           <h4>Legal</h4>
           <ul>
-            {legals.map(legal => (
+            {legals.map((legal) => (
               <li key={legal.node.id}>
                 <Link to={legal.node.fields.slug}>{legal.node.frontmatter.title}</Link>
               </li>
@@ -86,7 +89,7 @@ export const Footer = ({ courses, legals, socials }) => (
         </div>
         <div className="grid__column social">
           <ul>
-            {socials.map(social => (
+            {socials.map((social) => (
               <li key={social.node.id}>
                 <a
                   href={social.node.frontmatter.link}
