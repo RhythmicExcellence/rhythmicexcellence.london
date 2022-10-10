@@ -1,5 +1,5 @@
 ---
 published: true
-title: 2.0 Child Protection Policy
+title: Child Protection Policy
 file: /assets/2.0-child-protection-policy.pdf
 ---
