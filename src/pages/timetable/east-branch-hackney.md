@@ -1,11 +1,10 @@
 ---
 published: true
-title: Hoxton 2022/23 (from Sept 22)
-monday: |-
+title: "Hoxton 2022/23 "
+monday: |
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
   18:00 - 21:00 - Senior group
-  18:00 - 19:30 - Adult recreational
 tuesday: |
   17:00 - 21:00 - Squad individuals
   17:00 - 20:30 - Junior group
