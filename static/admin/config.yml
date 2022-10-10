@@ -148,3 +148,12 @@ collections:
       - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
       - { label: 'File', name: 'file', widget: 'file' }
+      - {
+        name: 'position',
+        label: 'Position on the policies page',
+        widget: 'number',
+        required: true,
+        valueType: int,
+        min: 1,
+        max: 20,
+      }

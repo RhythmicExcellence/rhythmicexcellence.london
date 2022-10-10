@@ -29,7 +29,7 @@ export const pageQuery = graphql`
   {
     allMarkdownRemark(
       filter: { fields: { category: { eq: "policies" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___position], order: DESC }
       limit: 20
     ) {
       edges {
