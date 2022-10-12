@@ -1,34 +1,29 @@
 ---
 published: true
 title: "Hoxton 2022/23 "
-monday: |
+monday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
   18:00 - 21:00 - Senior group
-tuesday: |
+tuesday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 20:30 - Junior group
   18:00 - 21:00 - Senior group
   17:00 - 18:00 - Baby group
   17:00 - 18:30 - Recreational
   18:00 - 20:30 - Adult group + Adult competitive
-wednesday: |
+wednesday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
   17:00 - 20:30 - Junior group
 thursday: ""
-friday: |+
+friday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
   17:00 - 20:30 - Junior group
   18:00 - 21:00 - Senior group
   18:00 - 20:30 - Adult group + Adult competitive
-
-
-
-
-
-saturday: |
+saturday: |-
   12:00 - 18:00 - Squad individuals
   12:00 - 15:00 - Espoir group + Foundation Squad
   13:00 - 18:00 - Junior group
