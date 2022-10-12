@@ -7,7 +7,7 @@ Please find all our ***Recreational courses*** below:
 
 * *RG Baby group* (4 to 6 years old)
 * *RG recreational* (6 to 12 years old)
-* *RG adult recreational* (15 years old up)
+* *RG adult recreational* (15 years old up) - Currently Unavailable
 
 Our recreational gymnastics programme is designed to engage children age 4 and over in gymnastics in a fun, friendly and developmental way.
 
