@@ -43,5 +43,6 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **September 5th** - Classes resume
 * **December 16th** - RE XMas Show
+* **January 28th** - R.E. 2nd Friendly Tournament
+* **February** **4th/5th** - Regional Grades
