@@ -154,6 +154,4 @@ collections:
         widget: 'number',
         required: true,
         valueType: int,
-        min: 1,
-        max: 20,
       }
