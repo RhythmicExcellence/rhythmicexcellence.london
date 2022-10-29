@@ -1,7 +1,6 @@
 ---
 published: true
-title: test
+title: Test Question
 position: 1
 ---
-
-test FAQ
+Test Answer
