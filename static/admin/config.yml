@@ -140,6 +140,21 @@ collections:
       - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'faq'
+    label: 'FAQ'
+    folder: 'src/pages/faq'
+    create: true
+    fields:
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+      - {
+        name: 'position',
+        label: 'Position on the policies page',
+        widget: 'number',
+        required: true,
+        valueType: int,
+      }
   - name: 'policies'
     label: 'Policies'
     folder: 'src/pages/policies'
