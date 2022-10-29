@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import './Topbar.css';
 
-export const Topbar = () => {
+export function Topbar() {
   return (
     <div className="Topbar">
       <h1>
@@ -13,4 +13,4 @@ export const Topbar = () => {
       </h1>
     </div>
   );
-};
+}

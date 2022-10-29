@@ -4,12 +4,16 @@ import './SWBanner.css';
 
 const windowGlobal = typeof window !== 'undefined' && window;
 
-export const SWBanner = () => {
+export function SWBanner() {
   const [show, setShow] = useState(false);
+
+  const showUpdateBar = () => {
+    setShow(true);
+  };
 
   useEffect(() => {
     const activate = () => {
-      windowGlobal.navigator.serviceWorker.ready.then(reg => {
+      windowGlobal.navigator.serviceWorker.ready.then((reg) => {
         reg.addEventListener('updatefound', () => {
           const newWorker = reg.installing;
 
@@ -32,7 +36,7 @@ export const SWBanner = () => {
       });
     };
 
-    if (windowGlobal['navigator'] && 'serviceWorker' in windowGlobal['navigator']) {
+    if (windowGlobal.navigator && 'serviceWorker' in windowGlobal.navigator) {
       activate();
     }
   }, []);
@@ -41,15 +45,12 @@ export const SWBanner = () => {
     windowGlobal.location.reload();
   };
 
-  const showUpdateBar = () => {
-    setShow(true);
-  };
-
   return (
     <div className={`SWBanner ${show ? ' show' : ''}`}>
       {show && (
         <div className="container">
-          A new version of RhythmicExcellence is available. Click{' '}
+          A new version of RhythmicExcellence is available. Click
+          {' '}
           <span
             tabIndex="-1"
             role="link"
@@ -58,10 +59,11 @@ export const SWBanner = () => {
             onKeyDown={reload}
           >
             here
-          </span>{' '}
+          </span>
+          {' '}
           to update.
         </div>
       )}
     </div>
   );
-};
+}

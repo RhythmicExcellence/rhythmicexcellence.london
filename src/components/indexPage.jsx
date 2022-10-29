@@ -9,12 +9,14 @@ import { Courses } from './Courses';
 import { Map } from './Map';
 import { ContactUs } from './ContactUs';
 
-export const IndexPage = ({ data, apiKey, height, zoom }) => {
+export function IndexPage({
+  data, apiKey, height, zoom,
+}) {
   return (
     <div className="App">
       <Hero />
       <section className="Home__content">
-        {data.home && data.home.edges.map(edge => <Homepage key={edge.node.id} node={edge.node} />)}
+        {data.home && data.home.edges.map((edge) => <Homepage key={edge.node.id} node={edge.node} />)}
 
         <MedalCollection data={data.medals.edges[0].node.frontmatter} />
 
@@ -26,20 +28,25 @@ export const IndexPage = ({ data, apiKey, height, zoom }) => {
           isMarkerShown
           zoom={zoom}
           googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp`}
-          loadingElement={<div style={{ height: `100%` }} />}
+          loadingElement={<div style={{ height: '100%' }} />}
           containerElement={<div style={{ height: `${height}px` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
+          mapElement={<div style={{ height: '100%' }} />}
         />
 
         <ContactUs />
       </section>
     </div>
   );
-};
+}
 
+/* eslint-disable react/forbid-prop-types */
 IndexPage.propTypes = {
   data: propTypes.any.isRequired,
   height: propTypes.number.isRequired,
   zoom: propTypes.number.isRequired,
   apiKey: propTypes.string,
 };
+
+IndexPage.defaultProps = {
+  apiKey: ''
+}

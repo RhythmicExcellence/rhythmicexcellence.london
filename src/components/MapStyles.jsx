@@ -80,4 +80,4 @@ export const mapStyles = [
     elementType: 'labels.text.stroke',
     stylers: [{ color: '#17263c' }],
   },
-]
+];

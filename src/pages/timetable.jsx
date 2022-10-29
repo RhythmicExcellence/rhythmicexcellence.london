@@ -15,7 +15,7 @@ class Timetable extends PureComponent {
           <h2 className="title">Timetable</h2>
 
           <div className="Timetable">
-            {data.allMarkdownRemark.edges.map(branchTimetable => (
+            {data.allMarkdownRemark.edges.map((branchTimetable) => (
               <div key={`key-${branchTimetable.node.id}`}>
                 <h3 className="title">{branchTimetable.node.frontmatter.title}</h3>
                 <div>
@@ -27,7 +27,7 @@ class Timetable extends PureComponent {
                     'friday',
                     'saturday',
                     'sunday',
-                  ].map(day => {
+                  ].map((day) => {
                     const key = `${day}-${branchTimetable.node.id}`;
                     let dayTimetable = branchTimetable.node.frontmatter[day];
 
@@ -37,6 +37,7 @@ class Timetable extends PureComponent {
 
                     dayTimetable = dayTimetable.replace(/\n\r?/g, '<br />');
 
+                    /* eslint-disable react/no-danger */
                     return (
                       <div className="Timetable__day" key={key}>
                         <strong>{day}</strong>

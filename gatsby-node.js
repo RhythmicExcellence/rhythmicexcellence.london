@@ -5,10 +5,10 @@ const { createFilePath } = require('gatsby-source-filesystem');
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  const newsTemplate = path.resolve('src/templates/news.js');
-  const disciplineTemplate = path.resolve('src/templates/discipline.js');
-  const legalTemplate = path.resolve('src/templates/legal.js');
-  const teamMemberTemplate = path.resolve('src/templates/teamMember.js');
+  const newsTemplate = path.resolve('src/templates/news.jsx');
+  const disciplineTemplate = path.resolve('src/templates/discipline.jsx');
+  const legalTemplate = path.resolve('src/templates/legal.jsx');
+  const teamMemberTemplate = path.resolve('src/templates/teamMember.jsx');
 
   return graphql(`
     {
@@ -55,6 +55,7 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
+    return null;
   });
 };
 

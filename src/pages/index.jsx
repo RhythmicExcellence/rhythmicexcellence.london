@@ -5,14 +5,18 @@ import { IndexPage } from '../components/indexPage';
 import Layout from '../layouts/index';
 
 const windowGlobal = typeof window !== 'undefined' && window;
-const zoom = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
-const height = windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
+// eslint-disable-next-line no-nested-ternary
+const zoomVal = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
+const heightVal = windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
 
 class Index extends Component {
-  state = {
-    zoom,
-    height,
-  };
+  constructor() {
+    super();
+    this.state = {
+      zoom: zoomVal,
+      height: heightVal,
+    };
+  }
 
   render() {
     const { data, location } = this.props;

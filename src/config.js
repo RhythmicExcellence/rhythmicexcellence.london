@@ -1,4 +1,5 @@
 import Package from '../package.json';
+
 const windowGlobal = typeof window !== 'undefined' && window;
 const hostname = windowGlobal && windowGlobal.location && windowGlobal.location.hostname;
 let backendHost;

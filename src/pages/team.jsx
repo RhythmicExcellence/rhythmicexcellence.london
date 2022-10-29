@@ -1,22 +1,38 @@
 import React, { Component } from 'react';
-import { TeamMember } from '../components/Team';
 import { graphql } from 'gatsby';
+import { TeamMember } from '../components/Team';
 
 import Layout from '../layouts/index';
 
 import './team.css';
 
 class Team extends Component {
-  state = {
-    activeMember: null,
-    show: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeMember: null,
+      show: false,
+    };
+
+    this.bindActive = this.bindActive.bind(this);
+  }
 
   componentDidMount() {
     setTimeout(() => this.setState({ show: true }));
   }
 
+  bindActive (elementToActivate = null) {
+    this.setState({
+      activeMember: elementToActivate,
+    });
+
+    document.body.classList.toggle('no-scroll', elementToActivate !== null);
+  };
+
   render() {
+    const { data } = this.props;
+    const { show, activeMember } = this.state;
+
     return (
       <Layout>
         <div className="Team container">
@@ -26,9 +42,9 @@ class Team extends Component {
           </div>
 
           <div className="TeamList">
-            {this.props.data.allMarkdownRemark.edges.map((teamMembers, key) => (
+            {data.allMarkdownRemark.edges.map((teamMembers, key) => (
               <TeamMember
-                show={this.state.show}
+                show={show}
                 key={teamMembers.node.fields.slug}
                 id={key}
                 name={teamMembers.node.frontmatter.title}
@@ -36,9 +52,9 @@ class Team extends Component {
                 picture={teamMembers.node.frontmatter.avatar}
                 content={teamMembers.node.frontmatter.details}
                 slug={teamMembers.node.fields.slug}
-                onActive={id => this.bindActive(id)}
+                onActive={(id) => this.bindActive(id)}
                 onDismiss={this.bindActive}
-                active={this.state.activeMember === key}
+                active={activeMember === key}
               />
             ))}
           </div>
@@ -46,14 +62,6 @@ class Team extends Component {
       </Layout>
     );
   }
-
-  bindActive = (elementToActivate = null) => {
-    this.setState({
-      activeMember: elementToActivate,
-    });
-
-    document.body.classList.toggle('no-scroll', elementToActivate !== null);
-  };
 }
 
 export default Team;

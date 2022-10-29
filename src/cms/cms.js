@@ -1,6 +1,9 @@
 import CMS from 'netlify-cms-app';
+// eslint-disable-next-line
 import AdminCSS from '!css-loader!./admin.css';
+// eslint-disable-next-line
 import TeamCSS from '!css-loader!./team.css';
+
 import { Team } from './TeamComponent';
 import { TimetablePreview } from './TimetablePreview';
 
@@ -16,15 +19,15 @@ CMS.registerEditorComponent({
   fields: [{ name: 'id', label: 'YouTube Video ID', widget: 'string' }],
   pattern:
     /^<a class="youtubeVideo" href="https:\/\/youtu\.be\/(\S+)"><img alt="YouTube Video" src="http:\/\/img\.youtube\.com\/vi\/\S+" \/><\/a>$/,
-  fromBlock: function (match) {
+  fromBlock(match) {
     return {
       id: match[1],
     };
   },
-  toBlock: function (obj) {
+  toBlock(obj) {
     return `<a class="youtubeVideo" href="https://youtu.be/${obj.id}"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
   },
-  toPreview: function (obj) {
+  toPreview(obj) {
     return `<a class="youtubeVideo" href="https://youtu.be/${obj.id}"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
   },
 });
@@ -33,11 +36,11 @@ CMS.registerEditorComponent({
   id: 'linebreak',
   label: 'Line Break',
   pattern: /^---$/,
-  toBlock: function () {
-    return `---`;
+  toBlock() {
+    return '---';
   },
-  toPreview: function () {
-    return `<hr />`;
+  toPreview() {
+    return '<hr />';
   },
 });
 
@@ -50,17 +53,17 @@ CMS.registerEditorComponent({
     { name: 'description', label: 'Description', widget: 'string' },
   ],
   pattern: /^\[!\[(\S+)?\]\((\S+)\)]\((\S+)\)$/,
-  fromBlock: function (match) {
+  fromBlock(match) {
     return {
       description: match[1],
       id: match[2],
       link: match[3],
     };
   },
-  toBlock: function (obj) {
+  toBlock(obj) {
     return `[![${obj.description}](${obj.id})](${obj.link})`;
   },
-  toPreview: function (obj) {
+  toPreview(obj) {
     return `<a href="${obj.link}"><img src="${obj.id}" alt="${obj.description}"/></a>`;
   },
 });
@@ -73,16 +76,16 @@ CMS.registerEditorComponent({
     { name: 'author', label: 'Author', widget: 'string' },
   ],
   pattern: /^<blockquote class="otro-blockquote">(.+)<span>(.+)<\/span><\/blockquote>$/,
-  fromBlock: function (match) {
+  fromBlock(match) {
     return {
       id: match[1],
       author: match[2],
     };
   },
-  toBlock: function (obj) {
+  toBlock(obj) {
     return `<blockquote class="otro-blockquote">${obj.id}<span>${obj.author}</span></blockquote>`;
   },
-  toPreview: function (obj) {
+  toPreview(obj) {
     return `<blockquote class="otro-blockquote">${obj.id}<span>${obj.author}</span></blockquote>`;
   },
 });

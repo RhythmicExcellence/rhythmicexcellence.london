@@ -3,25 +3,27 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../layouts/index';
 
-const Policies = ({ data }) => (
-  <Layout>
-    <div className="container">
-      <h1>Club Policies</h1>
+function Policies({ data }) {
+  return (
+    <Layout>
+      <div className="container">
+        <h1>Club Policies</h1>
 
-      {data.allMarkdownRemark.edges.map((policy, id) => (
-        <div key={id}>
-          <h3>
-            <Link href={policy.node.frontmatter.file} target="_blank">
-              {policy.node.frontmatter.title}
-            </Link>
-          </h3>
-          <br />
-          <hr />
-        </div>
-      ))}
-    </div>
-  </Layout>
-);
+        {data.allMarkdownRemark.edges.map((policy) => (
+          <div key={policy.node.frontmatter.file}>
+            <h3>
+              <Link href={policy.node.frontmatter.file} target="_blank">
+                {policy.node.frontmatter.title}
+              </Link>
+            </h3>
+            <br />
+            <hr />
+          </div>
+        ))}
+      </div>
+    </Layout>
+  );
+}
 
 export default Policies;
 

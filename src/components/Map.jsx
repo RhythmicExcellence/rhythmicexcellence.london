@@ -1,12 +1,14 @@
 import React from 'react';
-import { withScriptjs, withGoogleMap, GoogleMap, InfoWindow, Marker } from 'react-google-maps';
+import {
+  withScriptjs, withGoogleMap, GoogleMap, InfoWindow, Marker,
+} from 'react-google-maps';
 import { MarkerClusterer } from 'react-google-maps/lib/components/addons/MarkerClusterer';
 import { mapStyles } from './MapStyles';
 
 import './Map.css';
 
 const MapComponent = withScriptjs(
-  withGoogleMap(props => (
+  withGoogleMap((props) => (
     <GoogleMap
       defaultZoom={props.zoom}
       defaultCenter={{ lat: 51.52, lng: -0.108 }}
@@ -29,13 +31,14 @@ const MapComponent = withScriptjs(
         </Marker>
       </MarkerClusterer>
     </GoogleMap>
-  ))
+  )),
 );
 
-const MapContainer = ChildComponent => props => (
-  <div className="Map">
-    <ChildComponent {...props} />
-  </div>
-);
+/* eslint-disable react/jsx-props-no-spreading */
+const MapContainer = (ChildComponent) => (props) => (
+    <div className="Map">
+      <ChildComponent {...props} />
+    </div>
+  );
 
 export const Map = MapContainer(MapComponent);

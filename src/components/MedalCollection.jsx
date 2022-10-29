@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import './MedalCollection.css';
 
-export const MedalCollection = ({ data }) => {
+export function MedalCollection({ data }) {
   const totalMedals = data.gold + data.silver + data.bronze;
 
   return (
@@ -18,4 +18,4 @@ export const MedalCollection = ({ data }) => {
       </Link>
     </div>
   );
-};
+}

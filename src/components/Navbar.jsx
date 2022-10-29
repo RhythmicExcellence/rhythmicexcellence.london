@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import { slide as BurgerMenu } from 'react-burger-menu';
 import { Link } from 'gatsby';
 
-import './Menu.css';
+import './Navbar.css';
 
-export const Menu = () => {
-  const [isMobile, setMobile] = useState(true);
+export function Navbar() {
+  const [isMobile, setMobile] = useState(false);
 
   useEffect(() => {
     setMobile(window.innerWidth < 768);
   }, []);
 
-  if (isMobile) {
+  if (!isMobile) {
     return null;
   }
 
   return (
-    <div className="Menu">
+    <BurgerMenu right isOpen={false}>
       <Link exact="true" to="/" activeClassName="selected">
         Home
       </Link>
@@ -40,6 +41,6 @@ export const Menu = () => {
       <Link to="/legal" activeClassName="selected">
         Legal
       </Link>
-    </div>
+    </BurgerMenu>
   );
-};
+}

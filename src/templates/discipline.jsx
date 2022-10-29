@@ -3,23 +3,26 @@ import { graphql } from 'gatsby';
 
 import Layout from '../layouts/index';
 
-const NewsPost = ({ data }) => {
+import './pages.css';
+
+function DisciplinePage({ data }) {
   const { markdownRemark: post } = data;
 
+  /* eslint-disable react/no-danger */
   return (
     <Layout>
-      <div className="container news">
+      <div className="container">
         <h2 className="title">{post.frontmatter.title}</h2>
         <p>{post.frontmatter.date}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="page" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   );
-};
+}
 
-export default NewsPost;
+export default DisciplinePage;
 
-export const postQuery = graphql`
+export const disciplineQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html

@@ -1,5 +1,5 @@
-const { IconClose } = require('./close')
+const { IconClose } = require('./close');
 
 module.exports = {
   IconClose,
-}
+};

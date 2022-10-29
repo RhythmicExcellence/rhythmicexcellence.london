@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import './CookiePolicy.css';
 
-const CookiePolicyComponent = ({ cookies }) => {
+function CookiePolicyComponent({ cookies }) {
   const [cookie, setCookie] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
 
@@ -31,7 +31,10 @@ const CookiePolicyComponent = ({ cookies }) => {
             <div className="CookiePolicy__notification__content__copy">
               <p className="CookiePolicy__copy">
                 To ensure the best experience on our website, we recommend that you allow cookies,
-                as described in our <Link to="/legal/cookies">Cookie Policy</Link>.
+                as described in our
+                {' '}
+                <Link to="/legal/cookies">Cookie Policy</Link>
+                .
               </p>
               <p className="actions">
                 <button
@@ -48,7 +51,7 @@ const CookiePolicyComponent = ({ cookies }) => {
       </div>
     )
   );
-};
+}
 
 CookiePolicyComponent.propTypes = {
   cookies: PropTypes.instanceOf(Cookies).isRequired,

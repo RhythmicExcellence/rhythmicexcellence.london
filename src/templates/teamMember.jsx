@@ -3,19 +3,26 @@ import { graphql } from 'gatsby';
 
 import Layout from '../layouts/index';
 
-const NewsPost = ({ data }) => {
+import './teamMember.css';
+
+function NewsPost({ data }) {
   const { markdownRemark: post } = data;
 
+  /* eslint-disable react/no-danger */
   return (
     <Layout>
       <div className="container">
-        <h1>{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.date}</p>
+        <img
+          className="teamMember__avatar"
+          src={post.frontmatter.avatar}
+          alt={post.frontmatter.title}
+        />
+        <h2 className="teamMember__title">{post.frontmatter.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   );
-};
+}
 
 export default NewsPost;
 
@@ -25,6 +32,8 @@ export const postQuery = graphql`
       html
       frontmatter {
         title
+        avatar
+        details
       }
     }
   }

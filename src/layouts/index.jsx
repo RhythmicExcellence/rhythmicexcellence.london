@@ -16,7 +16,7 @@ import { CookiePolicy } from '../components/CookiePolicy';
 import { SWBanner } from '../components/SWBanner';
 import { Menu } from '../components/Menu';
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   return (
     <StaticQuery
       query={graphql`
@@ -79,7 +79,7 @@ const Layout = ({ children }) => {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <>
           <Helmet
             title={data.siteTitle.siteMetadata.title}
@@ -120,7 +120,7 @@ const Layout = ({ children }) => {
       )}
     />
   );
-};
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
