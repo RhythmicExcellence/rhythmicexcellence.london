@@ -43,6 +43,6 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **January 6th** - Classes resume
 * **January 28th** - R.E. 2nd Friendly Tournament
-* **February** **4th/5th** - Regional Grades
+* **February** **4th/5th** - Regional Grades individuals - London
+* **February** **18th** - Regional Grades groups - Cardiff
