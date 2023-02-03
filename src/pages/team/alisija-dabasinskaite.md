@@ -7,5 +7,5 @@ titles: >-
 
 
   Alisija is currently attending the UKCC Level 1 Rhythmic Gymnastics coaching course and the UKCC Level 1 Rhythmic Gymnastics Judge
-avatar: /assets/website.jpg
+avatar: /assets/rhythmicexcellence-copy.jpg
 ---
