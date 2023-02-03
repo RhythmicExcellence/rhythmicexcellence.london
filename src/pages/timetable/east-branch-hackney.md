@@ -1,9 +1,10 @@
 ---
 published: true
-title: "Hoxton 2022/23 "
+title: "New City College SPACe - Hoxton 2022/23 "
 monday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
+  17:30 - 19:00 - Adult Recreational {NEW!}
   18:00 - 21:00 - Senior squad
 tuesday: |-
   17:00 - 21:00 - Squad individuals
@@ -16,7 +17,7 @@ wednesday: |-
   17:00 - 21:00 - Squad individuals
   17:00 - 19:30 - Espoir group + Foundation Squad
   17:00 - 20:30 - Junior group
-  17:00 - 18:00 - Baby group NEW!
+  17:00 - 18:00 - Baby group [NEW!]
 thursday: ""
 friday: |-
   17:00 - 21:00 - Squad individuals
