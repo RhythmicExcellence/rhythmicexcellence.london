@@ -1,6 +1,6 @@
 ---
 published: true
-position: 5
+position: 6
 title: Alisija Dabasinskaite
 titles: >-
   Volunteer
