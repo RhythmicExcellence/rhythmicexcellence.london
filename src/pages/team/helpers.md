@@ -1,6 +1,6 @@
 ---
 published: true
-position: 8
+position: 9
 title: Rowena Richardson
 titles: >-
   Welfare Officer
