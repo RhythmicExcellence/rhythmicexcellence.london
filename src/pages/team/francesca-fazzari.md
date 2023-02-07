@@ -1,6 +1,6 @@
 ---
 published: true
-position: 9
+position: 10
 title: Simona Martini
 titles: |
   UKCC Level 1 Rhythmic Gymnastics Coach
