@@ -45,4 +45,4 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 * **March 25th/26th** - London Championships
 * **April 1st** - Open Class Rec Group
-* **A﻿pril 21st/22nd** - British Open Championships *Stoke-on-Trent*
+* **April 21st/22nd** - British Open Championships *Stoke-on-Trent*
