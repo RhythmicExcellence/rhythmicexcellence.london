@@ -31,12 +31,14 @@ Find our Timetable ***[here](https://www.rhythmicexcellence.london/timetable)***
 
 <img src="/assets/british-gymnastics-logo.png" alt="British Gymnastics logo" style="width:300px;border-radius:0;" />
 
-
-
 W﻿atch our gymnasts performing:
 
 [**R﻿ope** - ***Saffron Severn*** winning her National title in at the British Championships 2019](https://www.youtube.com/watch?v=HL1YgOUJ4xw&t=20s)
 
+[**H﻿oop** - ***Saffron Severn*** representing Team England at the Commonwealth Games 2022 in Birmingham](https://www.youtube.com/watch?v=Ifo9rw8c5nw&t=18s)
+
 [**Ball** - ***Leyla Yilmaz*** achieving her personal best at the FIG International Tournament "Happy Cup" 2019 in Gent, Belgium](https://www.youtube.com/watch?v=GC6xiPcsHRg)
+
+[**C﻿lubs** - ***Saffron Severn*** representing GBR at the Junior World Championships 2019 in Moscow, Russia](https://www.youtube.com/watch?v=bhr-MOC8bpg&t=17s)
 
 [**R﻿ibbon** - ***Dana Zigadlo*** winning a silver medal at the British NDP finals 2019](https://www.youtube.com/watch?v=zy4KFiZsSxc)
