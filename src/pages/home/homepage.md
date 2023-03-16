@@ -6,8 +6,6 @@ title: Rhythmic Excellence
 
 ## ***Rhythmic Excellence is ready for the new season!  Check out our new [timetable page](https://www.rhythmicexcellence.london/timetable)***
 
-
-
 ![]()
 
 - - -
@@ -19,11 +17,7 @@ title: Rhythmic Excellence
 RG is a discipline which blurs the boundaries between sport and art. It combines the elegance and gracefulness of ballet, the drama of theatre, and the athleticism and flexibility of gymnastics. \
 RG is a recognised sport which became competitive in 1940. At the 1984 Olympic Games in Los Angeles, RG was introduced for individual competition, followed by group competition at the 1996 Olympic Games in Atlanta. Rhythmic gymnasts perform with rope, hoop, ball, clubs and ribbon on a 13x13 sq metres carpet individually or in a group of 5 and always accompanied by music. 
 
-
-
-*[W﻿atch our champion qualifying for the clubs final at the Commonwealth Games 2022.](https://www.youtube.com/watch?v=dMkK449psVk&t=27s)*
-
-
+*[W﻿atch our champion **Saffron Severn** qualifying for the clubs final at the Commonwealth Games 2022.](https://www.youtube.com/watch?v=dMkK449psVk&t=27s)*
 
 ***What do we offer at RE?*** \
 We offer recreational courses every day for kids from 4 years old up and adults beginners once a week. Our squad gymnasts are selected following a period of training and trial; they may be drawn from our existing team of young athletes or admitted as newcomers. \
