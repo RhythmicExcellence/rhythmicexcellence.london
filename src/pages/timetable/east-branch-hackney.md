@@ -16,7 +16,7 @@ tuesday: |-
 wednesday: |-
   17:00 - 21:00 - Squad individuals (SGO)
   17:00 - 19:30 - Espoir group + Foundation Squad (SGO)
-  17:00 - 20:30 - Junior group (SGO)
+  17:00 - 21:00 - Junior group (SGO)
   17:00 - 18:00 - Baby group <NEW!>
 thursday: ""
 friday: |-
