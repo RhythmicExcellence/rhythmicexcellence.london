@@ -43,6 +43,7 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **March 25th/26th** - London Championships
-* **April 1st** - Open Class Rec Group
 * **April 21st/22nd** - British Open Championships *Stoke-on-Trent*
+* **M﻿ay 19th/20th** - Devotion Cup International Tournament *London*
+* **J﻿une 3rd/4th** - NDP Finals *Stoke-on-Trent*
+* **J﻿une 9th - 11th** - English Championships *University of Wolverhampton*
