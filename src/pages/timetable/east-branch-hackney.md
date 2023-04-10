@@ -4,7 +4,6 @@ title: "New City College SPACe - Hoxton 2022/23 "
 monday: |-
   17:00 - 21:00 - Squad individuals (SGO - Selected gymnasts only)
   17:00 - 19:30 - Espoir group + Foundation Squad (SGO)
-  17:30 - 19:00 - Adult Recreational <NEW!>
   18:00 - 21:00 - Senior squad (SGO)
 tuesday: |-
   17:00 - 21:00 - Squad individuals (SGO)
