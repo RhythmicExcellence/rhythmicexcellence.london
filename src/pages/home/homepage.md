@@ -43,8 +43,6 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **M﻿ay 19th/20th** - Devotion Cup International Tournament *London*
-* **J﻿une 3rd/4th** - NDP Finals *Stoke-on-Trent*
 * **J﻿une 9th - 11th** - English Championships *University of Wolverhampton*
 * **J﻿une 24th - 25th** - London Championships
-* **J﻿uly 7th - 10th - British Championships** *Telford**International*
+* **J﻿uly 7th - 10th - British Championships** *Telford\*\*International*
