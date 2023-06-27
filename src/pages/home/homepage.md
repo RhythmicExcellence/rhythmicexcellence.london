@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.jpg)
 
-## ***Rhythmic Excellence is ready for the new season!  Check out our new [timetable page](https://www.rhythmicexcellence.london/timetable)***
+## ***Rhythmic Excellence is getting ready for the new season!  Check out our 2023/24 [timetable page](https://www.rhythmicexcellence.london/timetable)***
 
 ![]()
 
@@ -43,6 +43,5 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **J﻿une 9th - 11th** - English Championships *University of Wolverhampton*
-* **J﻿une 24th - 25th** - London Championships
-* **J﻿uly 7th - 10th - British Championships** *Telford\*\*International*
+* **July 7th - 10th - British Championships** *Telford\*\*International*
+* **July 15th** - End of the year Display - *SPACe*
