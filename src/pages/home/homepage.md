@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.jpg)
 
-## ***Rhythmic Excellence is getting ready for the new season!  Check out our 2023/24 [timetable page](https://www.rhythmicexcellence.london/timetable)***
+## ***Rhythmic Excellence has now opened the new season's enrollment! Check out our 2023/24 [timetable page](https://www.rhythmicexcellence.london/timetable)***
 
 ![]()
 
