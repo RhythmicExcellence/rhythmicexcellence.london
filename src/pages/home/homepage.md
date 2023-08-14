@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.jpg)
 
-## ***Rhythmic Excellence has now opened the new season's enrollment! Check out our 2023/24 [timetable page](https://www.rhythmicexcellence.london/timetable)***
+## ***Rhythmic Excellence new season s enrollment  Check out our 2023/24 is starting on September 6th, please check our new [timetable](https://www.rhythmicexcellence.london/timetable)***
 
 ![]()
 
@@ -27,12 +27,7 @@ Our squad gymnasts train professionally 5/6 days per week, including some mornin
 We believe in a triangle of collaboration and trust between gymnast, coach, parents where all parties have their important roles: the coach teaches, the gymnast learns and the parent supports. We're eager to keep learning every day and acknowledge that each experience is a treasure. As Rome wasn't built in a day, a gymnast doesn't become a champion in a day either! There is a long period of preparation for gymnasts before they're able to begin competing and it takes years before they become well-rounded gymnasts, master techniques, and refine the quality of their skills. But this is all possible with a long-term plan which is tailored for each gymnast and patiently worked on.
 
 ***A big Team!***\
-We take this opportunity to acknowledge that we wouldn't be where we are today without the admirable work of all our coaches past and present, and those who have given us their trust and support. We want to send a special shout-out to Mrs *Karen C*: the generosity and positivity you have shown us has been heartwarming.
-
-![](/assets/dan_0018b.jpg)
-
-Picture by Dan Pickard\
-\
+We take this opportunity to acknowledge that we wouldn't be where we are today without the admirable work of all our coaches past and present, and those who have given us their trust and support. We want to send a special shout-out to Mrs *Karen C*: the generosity and positivity you have shown us has been heartwarming.\
 All our coaches, teachers, and volunteers are DBS checked; our coaches have also passed a Safeguarding and Child Protection Course.
 
 Gymnasts in our club must be registered with British Gymnastics.
@@ -43,5 +38,5 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **July 7th - 10th - British Championships** *Telford\*\*International*
-* **July 15th** - End of the year Display - *SPACe*
+* **September 6th -** *The new season begins*
+* **September 6th - 9th -** Squad *Workshop with the former Italian National Team member **Margherita Zucca***
