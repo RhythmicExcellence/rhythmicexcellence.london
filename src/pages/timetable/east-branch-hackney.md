@@ -11,17 +11,17 @@ tuesday: |-
   17:00 - 18:00 - Baby group 
   17:00 - 18:30 - Recreational Group
   18:30 - 21:00 - Adult competitive (SGO)
-wednesday: |-
+wednesday: |
   17:00 - 21:00 - Squad individuals (SGO)
   17:00 - 20:30 - Espoir Squad (SGO)
   17:00 - 21:00 - Junior group (SGO)
-  17:00 - 18:00 - Baby group
 thursday: ""
-friday: |-
+friday: |
   17:00 - 21:00 - Squad individuals (SGO)
   17:00 - 20:30 - Espoir Squad (SGO)
   17:00 - 21:00 - Junior group (SGO)
-  18:00 - 20:30 - Adult competitive (SGO)
+  17:30 - 18:30 - Baby group
+  18:30 - 21:00 - Adult competitive (SGO)
 saturday: |-
   12:00 - 13:30 - Recreational Group
   12:00 - 18:00 - Squad individuals (SGO)
