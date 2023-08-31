@@ -13,12 +13,12 @@ tuesday: |-
   18:30 - 21:00 - Adult competitive (SGO)
 wednesday: |
   17:00 - 21:00 - Squad individuals (SGO)
-  17:00 - 20:30 - Espoir Squad (SGO)
+  17:00 - 20:00 - Espoir Squad (SGO)
   17:00 - 21:00 - Junior group (SGO)
 thursday: ""
 friday: |
   17:00 - 21:00 - Squad individuals (SGO)
-  17:00 - 20:30 - Espoir Squad (SGO)
+  17:00 - 20:00 - Espoir Squad (SGO)
   17:00 - 21:00 - Junior group (SGO)
   17:30 - 18:30 - Baby group
   18:30 - 21:00 - Adult competitive (SGO)
