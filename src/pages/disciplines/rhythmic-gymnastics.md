@@ -27,18 +27,18 @@ Season 2022/2023
 \
 Find our Timetable ***[here](https://www.rhythmicexcellence.london/timetable)***.
 
-![Saffron Severn at the FIG international Tournament Gracia Cup - Budapest HUN 2022](/assets/screenshot-2023-10-02-at-12.47.05.png)
+![Saffron Severn at the Commonwealth Games 2022 in Birmingham, representing Team England](/assets/screenshot-2023-10-02-at-12.47.05.png)
 
 <img src="/assets/british-gymnastics-logo.png" alt="British Gymnastics logo" style="width:300px;border-radius:0;" />
 
 Watch our gymnasts performing:
 
-[**R﻿ope** - ***Saffron Severn*** winning her National title in at the British Championships 2019](https://www.youtube.com/watch?v=HL1YgOUJ4xw&t=20s)
+**R﻿ope** - ***[Saffron Severn](https://www.youtube.com/watch?v=HL1YgOUJ4xw&t=20s)*** winning her National title in at the British Championships 2019
 
-[**H﻿oop** - ***Saffron Severn*** representing Team England at the Commonwealth Games 2022 in Birmingham](https://www.youtube.com/watch?v=Ifo9rw8c5nw&t=18s)
+**H﻿oop** - ***[Saffron Severn](https://www.youtube.com/watch?v=Ifo9rw8c5nw&t=18s)*** representing Team England at the Commonwealth Games 2022 in Birmingham
 
-[**Ball** - ***Leyla Yilmaz*** achieving her personal best at the FIG International Tournament "Happy Cup" 2019 in Gent, Belgium](https://www.youtube.com/watch?v=GC6xiPcsHRg)
+**Ball** - ***[Leyla Yilmaz](https://www.youtube.com/watch?v=GC6xiPcsHRg)*** achieving her personal best at the FIG International Tournament "Happy Cup" 2019 in Gent, Belgium
 
-[**C﻿lubs** - ***Saffron Severn*** representing GBR at the Junior World Championships 2019 in Moscow, Russia](https://www.youtube.com/watch?v=bhr-MOC8bpg&t=17s)
+**C﻿lubs** - ***[Saffron Severn](https://www.youtube.com/watch?v=bhr-MOC8bpg&t=17s)*** representing GBR at the Junior World Championships 2019 in Moscow, Russia
 
-[**R﻿ibbon** - ***Dana Zigadlo*** winning a silver medal at the British NDP finals 2019](https://www.youtube.com/watch?v=zy4KFiZsSxc)
+**R﻿ibbon** - ***[Dana Zigadlo](https://www.youtube.com/watch?v=zy4KFiZsSxc)*** winning a silver medal at the British NDP finals 2019
