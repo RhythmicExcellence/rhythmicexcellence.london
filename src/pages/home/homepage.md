@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.jpg)
 
-## *Rhythmic Excellence new season is starting on September 6th, check out our new Timetable [here](https://www.rhythmicexcellence.london/timetable) and contact us ASAP if you'd like to enrol, places are limited.*
+## *Rhythmic Excellence season 2023/24 Timetable is [here](https://www.rhythmicexcellence.london/timetable)  contact us ASAP if you'd like to enrol, places are limited!*
 
 ![]()
 
