@@ -38,5 +38,6 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **September 6th -** *The new season begins*
-* **September 6th - 9th -** Squad *Workshop with the former Italian National Team member **Margherita Zucca***
+* **October 23rd, 24th & 25th -** *Half Term Camp*
+* **December 15th -** *Xmas Show* 
+* **January 27th** **\-** *RE 3rd Friendly Tournament*
