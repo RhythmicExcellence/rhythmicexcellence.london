@@ -38,6 +38,7 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **October 23rd, 24th & 25th -** *Half Term Camp*
+* **November 15th -** *Espoir Squad Open Class & Parents Evening*
+* **November 17th -** *2nd Squad Control Training*
 * **December 15th -** *Xmas Show* 
-* **January 27th** **\-** *RE 3rd Friendly Tournament*
+* **January 27th/28th** **\-** *RE 3rd Friendly Tournament*
