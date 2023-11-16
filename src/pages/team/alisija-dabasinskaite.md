@@ -1,6 +1,6 @@
 ---
 published: true
-position: 5
+position: 4
 title: Alisija Dabasinskaite
 titles: >-
   UKCC Level 1 Rhythmic Gymnastics Judge
