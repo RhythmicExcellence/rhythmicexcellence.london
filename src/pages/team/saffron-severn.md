@@ -6,5 +6,14 @@ titles: >-
   Volunteer
 
   Saffron Is Currently Attending The UKCC Level 1 Rhythmic Gymnastics Coaching Course.
+
+
+  Saffron, our former national team gymnast for GBR and ENG, proudly represented her country in significant competitions, notably participating in the 1st Junior World Championships in Moscow in 2019 and shining at the Commonwealth Games in Birmingham in 2022.
+
+
+  She holds the prestigious titles of the 2019 GBR national champion and earned a remarkable CWG bronze medal.
+
+
+  Between 2018 and 2022, Saffron consistently showcased her talent on the international stage, representing both GBR and ENG across numerous events. She was also selected for 3 World Cups, unfortunately impacted by the outbreak of COVID-19, leading to their cancellation.
 avatar: /assets/screenshot-2023-11-16-at-12.21.32.png
 ---
