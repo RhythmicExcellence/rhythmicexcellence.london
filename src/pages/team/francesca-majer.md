@@ -1,6 +1,6 @@
 ---
 published: true
-position: 6
+position: 5
 title: Johana Wichterlová
 titles: >
   Volunteer
