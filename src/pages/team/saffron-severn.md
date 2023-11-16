@@ -2,7 +2,9 @@
 published: true
 position: 3
 title: Saffron Severn
-titles: Saffron Is Currently Attending The UKCC Level 1 Rhythmic Gymnastics
-  Coaching Course.
-avatar: /assets/996cd590-b892-4ec7-9df6-9fb480d92f97.jpeg
+titles: >-
+  Volunteer
+
+  Saffron Is Currently Attending The UKCC Level 1 Rhythmic Gymnastics Coaching Course.
+avatar: /assets/screenshot-2023-11-16-at-12.21.32.png
 ---
