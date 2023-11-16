@@ -1,6 +1,6 @@
 ---
 published: true
-position: 4
+position: 6
 title: Francesca Cavallerio
 titles: |-
   Sports Psychologist
