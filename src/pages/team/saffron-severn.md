@@ -15,5 +15,5 @@ titles: >-
 
 
   Between 2018 and 2022, Saffron consistently showcased her talent on the international stage, representing both GBR and ENG across numerous events. She was also selected for 3 World Cups, unfortunately impacted by the outbreak of COVID-19, leading to their cancellation.
-avatar: /assets/screenshot-2023-11-16-at-12.21.32.png
+avatar: /assets/screenshot-2023-12-04-at-11.32.06.png
 ---
