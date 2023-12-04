@@ -5,7 +5,7 @@ title: Irena Dziewiecka
 titles: |+
   Welfare Officer
 
-avatar: /assets/whatsapp-image-2023-11-07-at-13.46.53.jpeg
+avatar: /assets/screenshot-2023-12-04-at-11.15.57.png
 details: |-
   Welfare Officer
 
