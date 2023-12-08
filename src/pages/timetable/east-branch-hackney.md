@@ -15,7 +15,7 @@ wednesday: |
   17:00 - 21:00 - Squad individuals (SGO)
   17:00 - 20:00 - Espoir Squad (SGO)
   17:00 - 21:00 - Junior group (SGO)
-  17:30 - 18:30 - General Gymnastics Group <NEW COURSE from January 2024>
+  17:30 - 18:30 - General Gymnastics Group NEW COURSE from January 2024
   18:30 - 19:30 - RG Adult Recreational Group NEW COURSE from January 2024
 thursday: ""
 friday: |
