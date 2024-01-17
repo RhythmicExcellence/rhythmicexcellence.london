@@ -59,7 +59,7 @@ module.exports.send = async (event, _context) => {
   } catch (err) {
     return returnCallback({
       name: 'SyntaxError',
-      message: 'body is missing in the event or is not parsable to JSON.\n' + err.message || err,
+      message: `body is missing in the event or is not parsable to JSON.\n${err.message}` || err,
     });
   }
 

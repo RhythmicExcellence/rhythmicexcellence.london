@@ -14,7 +14,7 @@ describe('MailSender', () => {
   it('should throw an error if the AWS provider is missing', () => {
     expect(() => {
       new MailSender();
-    }).toThrow(TypeError(`Cannot read property 'SES' of undefined`));
+    }).toThrow(TypeError(`Cannot read properties of undefined (reading 'SES')`));
   });
 
   it(`should throw an error if the AWS provider doesn't contain 'ses'`, () => {

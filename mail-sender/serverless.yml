@@ -5,7 +5,7 @@ configValidationMode: error
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs18.x
   region: us-east-1
   memorySize: 512
   timeout: 8
