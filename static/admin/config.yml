@@ -175,6 +175,7 @@ collections:
     folder: 'src/pages/registrations'
     create: true
     fields:
-      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
+      - { name: 'published', label: 'Published', widget: 'hidden', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'description', label: 'Description', widget: 'string' }
       - { name: 'link', label: 'Link', widget: 'string' }

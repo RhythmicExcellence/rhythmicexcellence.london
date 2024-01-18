@@ -59,24 +59,6 @@ function Layout({ children }) {
               }
             }
           }
-          registrations: allMarkdownRemark(
-            filter: { fields: { category: { eq: "registrations" } } }
-            sort: { fields: [frontmatter___position], order: ASC }
-            limit: 10
-          ) {
-            edges {
-              node {
-                id
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                  link
-                }
-              }
-            }
-          }
           socials: allMarkdownRemark(
             filter: { fields: { category: { eq: "socials" } } }
             sort: { fields: [frontmatter___position], order: ASC }
