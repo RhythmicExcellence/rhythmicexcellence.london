@@ -67,6 +67,9 @@ export function Footer({ courses, legals, socials }) {
               <li>
                 <Link to="/faq">FAQ</Link>
               </li>
+              <li>
+                <Link to="/#contact-us">Contact US</Link>
+              </li>
             </ul>
           </div>
 
