@@ -43,6 +43,9 @@ export function Menu() {
       <Link to="/faq" activeClassName="selected">
         FAQ
       </Link>
+      <Link to="/registrations" activeClassName="selected">
+        Registrations
+      </Link>
     </div>
   );
 }

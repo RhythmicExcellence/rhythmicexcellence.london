@@ -8,6 +8,7 @@ exports.createPages = ({ actions, graphql }) => {
   const newsTemplate = path.resolve('src/templates/news.jsx');
   const disciplineTemplate = path.resolve('src/templates/discipline.jsx');
   const legalTemplate = path.resolve('src/templates/legal.jsx');
+  const registrationsTemplate = path.resolve('src/templates/registrations.jsx');
   const teamMemberTemplate = path.resolve('src/templates/teamMember.jsx');
 
   return graphql(`
@@ -41,6 +42,8 @@ exports.createPages = ({ actions, graphql }) => {
         template = disciplineTemplate;
       } else if (node.fields && node.fields.category === 'legal') {
         template = legalTemplate;
+      } else if (node.fields && node.fields.category === 'registrations') {
+        template = registrationsTemplate;
       } else if (node.fields && node.fields.category === 'team') {
         template = teamMemberTemplate;
       } else {
@@ -110,6 +113,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         name: 'category',
         node,
         value: 'faq',
+      });
+    } else if (/^.+\/registrations\/.+/.test(node.fileAbsolutePath)) {
+      // Dynamically add a `registrations` category
+      createNodeField({
+        name: 'category',
+        node,
+        value: 'registrations',
       });
     } else if (/^.+\/disciplines\/.+/.test(node.fileAbsolutePath)) {
       // Dynamically add a `discipline` category to discipline pages

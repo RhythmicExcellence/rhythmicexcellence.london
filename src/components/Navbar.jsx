@@ -44,6 +44,9 @@ export function Navbar() {
       <Link to="/faq" activeClassName="selected">
         FAQ
       </Link>
+      <Link to="/registrations" activeClassName="selected">
+        Registrations
+      </Link>
     </BurgerMenu>
   );
 }

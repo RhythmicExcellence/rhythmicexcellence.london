@@ -58,8 +58,10 @@
     "preaudit": "npm run build",
     "audit": "npm-run-all -r -p serve:dist lighthouse",
     "audit:report": "open lighthouse/report.html",
+    "prebuild": "yarn gatsby clean",
     "build": "gatsby telemetry --disable && gatsby build",
     "lint": "eslint \"src/**/*.{js,jsx}\" --fix",
+    "predevelop": "yarn gatsby clean",
     "develop": "gatsby telemetry --disable && gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"

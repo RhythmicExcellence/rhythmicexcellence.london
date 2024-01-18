@@ -127,6 +127,24 @@ export const pageQuery = graphql`
         }
       }
     }
+    registrations: allMarkdownRemark(
+      filter: { fields: { category: { eq: "registrations" } } }
+      sort: { fields: [frontmatter___position], order: ASC }
+      limit: 10
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            link
+          }
+        }
+      }
+    }
     team: allMarkdownRemark(
       filter: { fields: { category: { eq: "team" } } }
       sort: { fields: [frontmatter___position], order: ASC }
