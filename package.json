@@ -53,6 +53,7 @@
   },
   "scripts": {
     "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') < 0) throw new Error('You must use Yarn to install, not NPM')\"",
+    "postinstall": "yarn gatsby clean",
     "lighthouse": "lighthouse-ci http://localhost:64073 --report --score=80",
     "serve:dist": "PORT=64073 serve",
     "preaudit": "npm run build",
