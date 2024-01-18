@@ -3,7 +3,6 @@ module.exports = {
     title: 'Rhythmic Excellence',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -20,6 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
+          // eslint-disable-next-line global-require
           require(`postcss-preset-env`)({
             stage: 0,
             browsers: 'last 2 versions',
