@@ -16,36 +16,40 @@ export function Menu() {
 
   return (
     <div className="Menu">
-      <Link exact="true" to="/" activeClassName="selected">
-        Home
-      </Link>
-      <Link to="/courses" activeClassName="selected">
-        Courses
-      </Link>
-      <Link to="/timetable" activeClassName="selected">
-        Timetable
-      </Link>
-      <Link to="/team" activeClassName="selected">
-        Meet our team
-      </Link>
-      <Link to="/news" activeClassName="selected">
-        News
-      </Link>
-      <Link to="/#contact-us" activeClassName="selected">
-        Contact Us
-      </Link>
-      <Link to="/policies" activeClassName="selected">
-        Club Policies
-      </Link>
-      <Link to="/legal" activeClassName="selected">
-        Legal
-      </Link>
-      <Link to="/faq" activeClassName="selected">
-        FAQ
-      </Link>
-      <Link to="/registrations" activeClassName="selected">
-        Registrations
-      </Link>
+      <div>
+        <Link exact="true" to="/" activeClassName="selected">
+          Home
+        </Link>
+        <Link to="/courses" activeClassName="selected">
+          Courses
+        </Link>
+        <Link to="/timetable" activeClassName="selected">
+          Timetable
+        </Link>
+        <Link to="/team" activeClassName="selected">
+          Meet our team
+        </Link>
+        <Link to="/news" activeClassName="selected">
+          News
+        </Link>
+        <Link to="/#contact-us" activeClassName="selected">
+          Contact Us
+        </Link>
+        <Link to="/faq" activeClassName="selected">
+          FAQ
+        </Link>
+      </div>
+      <div>
+        <Link to="/registrations" activeClassName="selected">
+          Registration Documents
+        </Link>
+        <Link to="/policies" activeClassName="selected">
+          Club Policies
+        </Link>
+        <Link to="/legal" activeClassName="selected">
+          Legal
+        </Link>
+      </div>
     </div>
   );
 }

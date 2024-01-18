@@ -2,14 +2,18 @@
   display: flex;
   width: 100%;
   padding-left: 1rem;
-  padding-bottom: 0.25rem;
-  flex-direction: row;
+  padding-bottom: 0.5rem;
+  flex-direction: column;
   background-color: var(--topbar);
   border-bottom: 1px white solid;
 
+  & div + div {
+    padding-top: 0.5rem;
+  }
+
   & a {
     color: var(--white);
-    padding: 0.25rem;
+    padding: 0.25rem 0.4rem;
     text-decoration: none;
 
     &.selected {

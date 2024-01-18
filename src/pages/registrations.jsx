@@ -8,7 +8,7 @@ function Registrations({ data }) {
   return (
     <Layout>
       <div className="container">
-        <h1>Registration Forms</h1>
+        <h1>Registration Documents</h1>
 
         {data.allMarkdownRemark.edges.map((registrations) => (
           <div key={registrations.node.fields.slug}>
@@ -38,6 +38,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            description
             link
           }
         }
