@@ -1,6 +1,7 @@
 ---
 published: true
-title: General Gymnastics Course (from 6 years old up)
+title: General Gymnastics Course
+subtitle: From 6 years old up
 description: Our recreational general gymnastics class for kids is a fun and
   introductory way for children to explore various gymnastics activities. It's
   designed for enjoyment and basic skill development, teaching fundamental

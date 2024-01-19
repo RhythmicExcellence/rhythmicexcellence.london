@@ -73,7 +73,7 @@ p + p {
   max-width: 960px;
   width: 100%;
   padding: 0 1.2em;
-  margin: 0 auto;
+  margin: 0.75rem auto;
   display: block;
 }
 

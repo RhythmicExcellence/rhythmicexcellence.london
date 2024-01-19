@@ -3,6 +3,8 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../layouts/index';
 
+import './registrations.css';
+
 function Registrations({ data }) {
   /* eslint-disable react/no-danger */
   return (
@@ -12,10 +14,15 @@ function Registrations({ data }) {
 
         {data.allMarkdownRemark.edges.map((registrations) => (
           <div key={registrations.node.fields.slug}>
-            <h3>
-              <Link to={registrations.node.frontmatter.link}>{registrations.node.frontmatter.title}</Link>
-              <p>{registrations.node.frontmatter.description}</p>
-            </h3>
+            <div>
+              <h3>
+                <Link to={registrations.node.frontmatter.link}>
+                  {registrations.node.frontmatter.title}
+                </Link>
+              </h3>
+              <h4 className='registrations_subtitle'>{registrations.node.frontmatter.subtitle}</h4>
+              <p className='registrations_description'>{registrations.node.frontmatter.description}</p>
+            </div>
             <br />
             <hr />
           </div>
@@ -38,6 +45,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            subtitle
             description
             link
           }
