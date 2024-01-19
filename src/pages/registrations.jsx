@@ -16,12 +16,14 @@ function Registrations({ data }) {
           <div key={registrations.node.fields.slug}>
             <div>
               <h3>
-                <Link to={registrations.node.frontmatter.link}>
+                <Link to={registrations.node.frontmatter.link} target="_blank" rel="noopener">
                   {registrations.node.frontmatter.title}
                 </Link>
               </h3>
-              <h4 className='registrations_subtitle'>{registrations.node.frontmatter.subtitle}</h4>
-              <p className='registrations_description'>{registrations.node.frontmatter.description}</p>
+              <h4 className="registrations_subtitle">{registrations.node.frontmatter.subtitle}</h4>
+              <p className="registrations_description">
+                {registrations.node.frontmatter.description}
+              </p>
             </div>
             <br />
             <hr />
