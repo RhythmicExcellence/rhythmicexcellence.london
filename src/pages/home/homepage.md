@@ -38,5 +38,5 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **January 27th/28th** **\-** *RE 3rd Friendly Tournament*
-* **February 17th/18th** - *Regional Grades*
+* **March 29th - April 1st** *Easter Break*
+* ﻿**April 6th/7th -** *British Open Championships*
