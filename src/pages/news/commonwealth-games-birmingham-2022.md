@@ -9,7 +9,7 @@ Saffron concluded the all around qualification 12th earning more than 1 PB and q
 
 What an amazing experience for Saffron and for our judges *Stefano* and *Becca* who have had the privilege of being involved with the RG  competition as officials.
 
-![](/assets/screenshot-2022-09-05-at-14.34.18.png)
+![]()
 
 ![](/assets/screenshot-2022-09-05-at-14.31.04.png)
 
