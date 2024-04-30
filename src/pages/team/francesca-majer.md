@@ -7,6 +7,6 @@ titles: >
 
 
   Johana is currently attending the UKCC Level 1 Rhythmic Gymnastics coaching course.
-avatar: /assets/rhythmicexcellence-copy.jpg
+avatar: /assets/screenshot-2024-04-30-at-13.37.08.png
 details: ""
 ---
