@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.jpg)
 
-## *Rhythmic Excellence season 2023/24 Timetable is [here](https://www.rhythmicexcellence.london/timetable)  contact us ASAP if you'd like to enrol, places are limited!*
+## *Rhythmic Excellence season 2023/24 Timetable is [here](https://www.rhythmicexcellence.london/timetable)*
 
 ![]()
 
@@ -38,5 +38,5 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event***  
 
-* **March 29th - April 1st** *Easter Break*
-* ﻿**April 6th/7th -** *British Open Championships*
+* **May 6th & 27th -** *Spring* *Bank Holiday*
+* ﻿**May 25th/26th -** *Espoir English Championships*
