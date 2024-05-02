@@ -36,7 +36,8 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 - - -
 
-***Upcoming event***  
+***Upcoming event and closures***
 
 * **May 6th & 27th -** *Spring* *Bank Holiday*
+* **M﻿ay 15th & 22nd** - NO CLASSES *Hall unavailable* (please refer to May newsletter for all info)
 * ﻿**May 25th/26th -** *Espoir English Championships*
