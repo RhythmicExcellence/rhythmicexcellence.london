@@ -4,9 +4,9 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.jpg)
 
-## *Rhythmic Excellence season 2023/24 Timetable is [here](https://www.rhythmicexcellence.london/timetable)*
+## *Rhythmic Excellence season 2024/25 Timetable is coming soon!*
 
-![]()
+![](/assets/screenshot-2024-05-16-at-11.36.39.png)
 
 - - -
 
@@ -32,7 +32,7 @@ All our coaches, teachers, and volunteers are DBS checked; our coaches have also
 
 Gymnasts in our club must be registered with British Gymnastics.
 
-![](/assets/img_1934.jpg)
+![](/assets/55f54565-d35a-423a-85ec-0764751c989b.jpg)
 
 - - -
 
