@@ -38,6 +38,8 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event and closures***
 
-* **May 6th & 27th -** *Spring* *Bank Holiday*
-* **M﻿ay 15th & 22nd** - NO CLASSES *Hall unavailable* (please refer to May newsletter for all info)
-* ﻿**May 25th/26th -** *Espoir English Championships*
+* **June 5th -** NO CLASSES *Hall unavailable* (please refer to June newsletter for all info)
+* **J﻿une 15th/16th** - *NDP Finals* 
+* **J﻿une 17th** - NO CLASSES (rest day post competition weekend)
+* **J﻿une 23rd** - *Gymnastics Festival*
+* **J﻿une 29th/30th** - *Junior/Senior English Championships*
