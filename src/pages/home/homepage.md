@@ -2,11 +2,11 @@
 published: true
 title: Rhythmic Excellence
 ---
-![](/assets/re.jpg)
+![]()
 
 ## *Rhythmic Excellence season 2024/25 Timetable is coming soon!*
 
-![](/assets/screenshot-2024-05-16-at-11.36.39.png)
+![]()
 
 - - -
 
@@ -32,14 +32,15 @@ All our coaches, teachers, and volunteers are DBS checked; our coaches have also
 
 Gymnasts in our club must be registered with British Gymnastics.
 
-![](/assets/55f54565-d35a-423a-85ec-0764751c989b.jpg)
+![]()
 
 - - -
 
 ***Upcoming event and closures***
 
-* **June 5th -** NO CLASSES *Hall unavailable* (please refer to June newsletter for all info)
-* **J﻿une 15th/16th** - *NDP Finals* 
-* **J﻿une 17th** - NO CLASSES (rest day post competition weekend)
-* **J﻿une 23rd** - *Gymnastics Festival*
 * **J﻿une 29th/30th** - *Junior/Senior English Championships*
+* **J﻿uly 6th/7th** - *Devotion Cup*
+* **J﻿uly 8th/9th** - *All Classes Cancelled due to College CPD*
+* **J﻿uly 12th** - *End of Season Display*
+* **J﻿uly 13th/14th** - *London Championships*
+* **J﻿uly 19th/20th** - *British Championships*
