@@ -1,9 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-import { Hero } from './Hero';
 import { Homepage } from './Homepage';
-import { MedalCollection } from './MedalCollection';
 import { LatestNews } from './LatestNews';
 import { Courses } from './Courses';
 import { Map } from './Map';
@@ -14,11 +12,8 @@ export function IndexPage({
 }) {
   return (
     <div className="App">
-      <Hero />
       <section className="Home__content">
         {data.home && data.home.edges.map((edge) => <Homepage key={edge.node.id} node={edge.node} />)}
-
-        <MedalCollection data={data.medals.edges[0].node.frontmatter} />
 
         <LatestNews edges={data.news.edges} />
 

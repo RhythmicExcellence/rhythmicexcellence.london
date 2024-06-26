@@ -2,18 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { CookiesProvider } from 'react-cookie';
+import { Footer } from '../components/Footer';
+import { CookiePolicy } from '../components/CookiePolicy';
+import { SWBanner } from '../components/SWBanner';
+import { Menu } from '../components/Menu';
 
 import '../reset.css';
 import '../colors.css';
 import '../buttons.css';
 import './layout.css';
-
-import { Topbar } from '../components/Topbar';
-import { Navbar } from '../components/Navbar';
-import { Footer } from '../components/Footer';
-import { CookiePolicy } from '../components/CookiePolicy';
-import { SWBanner } from '../components/SWBanner';
-import { Menu } from '../components/Menu';
 
 function Layout({ children }) {
   return (
@@ -81,8 +78,6 @@ function Layout({ children }) {
       render={(data) => (
         <CookiesProvider>
             <main>
-              <Navbar />
-              <Topbar />
               <Menu />
               {children}
               <Footer

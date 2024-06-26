@@ -14,15 +14,6 @@
     visibility: visible;
     z-index: 10;
     pointer-events: none;
-
-    @media all and (min-width: 1200px) {
-      top: -270px;
-      height: 276px;
-      background-image: url('/img/curve-disciplines.svg');
-      background-position: right top;
-      background-repeat: no-repeat;
-      background-size: 3000px 278px;
-    }
   }
 
   & h2.title {
