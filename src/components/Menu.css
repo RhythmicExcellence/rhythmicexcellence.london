@@ -32,11 +32,17 @@
     }
   }
 
+  .Header__left {
+    z-index: 1;
+  }
+
   .Header__right {
     a + a {
       margin-left: 0.5rem;
     }
   }
+
+  border-bottom: 1px solid;
 }
 
 @media all and (min-width: 1060px) {

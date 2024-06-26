@@ -56,7 +56,7 @@ export function Footer({ courses, legals, socials }) {
                 <Link to="/timetable">Timetable</Link>
               </li>
               <li>
-                <Link to="/team">Meet our team</Link>
+                <Link to="/about-us">About Us</Link>
               </li>
               <li>
                 <Link to="/news">News</Link>

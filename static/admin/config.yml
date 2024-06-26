@@ -115,6 +115,14 @@ collections:
       - { name: 'details', label: 'Description', widget: 'text', required: false }
       - { name: 'body', label: 'More details', widget: 'markdown', required: false }
 
+  - name: 'about-us'
+    label: 'About Us'
+    folder: 'src/pages/about'
+    create: false
+    fields:
+      - { name: 'title', label: 'Section Title', widget: 'string' }
+      - { name: 'body', label: 'Description', widget: 'markdown', required: false }
+
   - name: 'disciplines'
     label: 'Courses'
     folder: 'src/pages/disciplines'

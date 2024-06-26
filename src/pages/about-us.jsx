@@ -4,7 +4,7 @@ import { TeamMember } from '../components/Team';
 
 import Layout from '../layouts/index';
 
-import './team.css';
+import './about-us.css';
 
 class Team extends Component {
   constructor(props) {
@@ -37,15 +37,20 @@ class Team extends Component {
       <Layout>
         <div className="Team container">
           <div className="title">
-            <p className="sub-title">Hi, have you met</p>
-            <h2 className="title">Our Team?</h2>
+            <h2 className="title">RE presentation</h2>
+          </div>
+          <div className="container">
+            <p>{data.about.edges[0].node.frontmatter.title}</p>
+          </div>
+          <div className="title">
+            <h2 className="title">Coaches</h2>
           </div>
 
           <div className="TeamList">
-            {data.allMarkdownRemark.edges.map((teamMembers, key) => (
+            {data.team.edges.map((teamMembers, key) => (
               <TeamMember
                 show={show}
-                key={teamMembers.node.fields.slug}
+                key={teamMembers.node.id}
                 id={key}
                 name={teamMembers.node.frontmatter.title}
                 titles={teamMembers.node.frontmatter.titles}
@@ -68,13 +73,14 @@ export default Team;
 
 export const pageQuery = graphql`
   {
-    allMarkdownRemark(
+    team: allMarkdownRemark(
       filter: { fields: { category: { eq: "team" } } }
       sort: { fields: [frontmatter___position], order: ASC }
       limit: 100
     ) {
       edges {
         node {
+          id
           fields {
             slug
             category
@@ -84,6 +90,18 @@ export const pageQuery = graphql`
             titles
             avatar
             details
+          }
+        }
+      }
+    }
+    about: allMarkdownRemark(
+      filter: { fields: { category: { eq: "about" } } }
+    ) {
+      edges {
+        node {
+          html
+          frontmatter {
+            title
           }
         }
       }

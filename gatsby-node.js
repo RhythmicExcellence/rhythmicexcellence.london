@@ -160,6 +160,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         node,
         value: 'medals',
       });
+    } else if (/^.+\/about\/.+/.test(node.fileAbsolutePath)) {
+      // Dynamically add a `about-us` category
+      createNodeField({
+        name: 'category',
+        node,
+        value: 'about',
+      });
     } else if (/^.+\/timetable\/.+/.test(node.fileAbsolutePath)) {
       // Dynamically add a `timetable` category
       createNodeField({

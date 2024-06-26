@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
@@ -19,7 +20,7 @@ export function TeamMember({
 }) {
   /* eslint-disable react/no-danger */
   return (
-    <div className={`TeamMember ${show ? 'show' : ''} ${active ? 'active' : ''}`}>
+    <div key={id} className={`TeamMember ${show ? 'show' : ''} ${active ? 'active' : ''}`}>
       <div
         role="button"
         aria-label="team member"
@@ -30,7 +31,7 @@ export function TeamMember({
       />
       <div className="TeamMember__container">
         <div className="TeamMember__dismiss">
-          <button type='button' onClick={() => onDismiss()}>
+          <button label="dismiss" type='button' onClick={() => onDismiss()}>
             <div className="TeamMember__dismiss__icon-wrapper">
               <IconClose iconTitle="close" width="18" height="18" />
             </div>
@@ -51,7 +52,7 @@ export function TeamMember({
             <h4>{name}</h4>
             <div className="TeamMember__content__copy">
               <blockquote>
-                {titles && titles.split('\n').map((title) => <p key={title}>{title}</p>)}
+                {titles && titles.split('\n').map((title, key) => <p key={key}>{title}</p>)}
               </blockquote>
               <div dangerouslySetInnerHTML={{ __html: content }} />
               <Link to={slug} className="TeamMember__content__readmore">

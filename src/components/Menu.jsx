@@ -18,7 +18,7 @@ export function Menu() {
         <Link to="/courses" activeClassName="selected">
           Courses
         </Link>
-        <Link to="/team" activeClassName="selected">
+        <Link to="/about-us" activeClassName="selected">
           About Us
         </Link>
         <Link to="/timetable" activeClassName="selected">
