@@ -2,11 +2,10 @@
 published: true
 position: 5
 title: Johana Wichterlová
-titles: >
-  Volunteer
+titles: |
+  Assistant Coach
 
-
-  Johana is currently attending the UKCC Level 1 Rhythmic Gymnastics coaching course.
+  UKCC Level 1 Rhythmic Gymnastics coach
 avatar: /assets/screenshot-2024-04-30-at-13.44.41.png
 details: ""
 ---
