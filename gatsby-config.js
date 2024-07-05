@@ -100,7 +100,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/pages/gymnasts-contract`,
+        path: `${__dirname}/src/pages/group-gymnasts-contract`,
         name: 'group-gymnasts-contract',
       },
     },
