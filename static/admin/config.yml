@@ -187,3 +187,11 @@ collections:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'description', label: 'Description', widget: 'string' }
       - { name: 'link', label: 'Link', widget: 'string' }
+  - name: 'gymnasts-contract'
+    label: 'Gymnasts Contract'
+    folder: 'src/pages/gymnasts-contract'
+    create: true
+    fields:
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }

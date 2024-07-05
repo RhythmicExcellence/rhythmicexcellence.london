@@ -111,6 +111,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         node,
         value: 'faq',
       });
+    } else if (/^.+\/gymnasts-contract\/.+/.test(node.fileAbsolutePath)) {
+      // Dynamically add a `gymnasts-contract` category
+      createNodeField({
+        name: 'category',
+        node,
+        value: 'gymnasts-contract',
+      });
     } else if (/^.+\/registrations\/.+/.test(node.fileAbsolutePath)) {
       // Dynamically add a `registrations` category
       createNodeField({

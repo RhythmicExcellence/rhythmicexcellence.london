@@ -93,6 +93,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/src/pages/gymnasts-contract`,
+        name: 'gymnasts-contract',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/src/pages/registrations`,
         name: 'registrations',
       },
