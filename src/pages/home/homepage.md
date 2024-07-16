@@ -4,9 +4,11 @@ title: Rhythmic Excellence
 ---
 ![]()
 
+![](/assets/screenshot-2023-06-13-at-10.12.47.png)
+
 ## *Rhythmic Excellence season 2024/25 Timetable is out!*
 
-![](/assets/screenshot-2023-06-13-at-10.12.47.png)
+![]()
 
 - - -
 
