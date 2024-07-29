@@ -1,6 +1,6 @@
 ---
 published: true
-title: RG Recreational Course
+title: RG Recreational Course (only 2 places left for Tuesday class)
 subtitle: From 6 years up
 description: Our recreational gymnastics programme is designed to engage
   children age 6 and over in gymnastics in a fun, friendly and developmental
