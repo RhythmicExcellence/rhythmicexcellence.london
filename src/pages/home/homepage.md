@@ -8,6 +8,8 @@ title: Rhythmic Excellence
 
 ## *Rhythmic Excellence season 2024/25 Timetable is out!*
 
+Enrolments for the new season are open and some courses are already fully booked, please visit our customer documents page **[here](https://www.rhythmicexcellence.london/customer-info)** to proceed with the registration.
+
 ![]()
 
 - - -
