@@ -3,7 +3,7 @@ published: true
 position: 3
 title: Saffron Severn
 titles: >-
-  UKCC Level 1 Rhythmic Gymnastics Coach - Currently attending the UKCC Level 2
+  UKCC Level 2 Rhythmic Gymnastics Coach 
 
 
   Saffron, our former national team gymnast for GBR and ENG, proudly represented her country in significant competitions, notably participating in the 1st Junior World Championships in Moscow in 2019 and shining at the Commonwealth Games in Birmingham in 2022 (Team Bronze Medallist)
