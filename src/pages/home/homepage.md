@@ -42,9 +42,5 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event and closures***
 
-* **J﻿une 29th/30th** - *Junior/Senior English Championships*
-* **J﻿uly 6th/7th** - *Devotion Cup*
-* **J﻿uly 8th/9th** - *All Classes Cancelled due to College CPD*
-* **J﻿uly 12th** - *End of Season Display*
-* **J﻿uly 13th/14th** - *London Championships*
-* **J﻿uly 19th/20th** - *British Championships*
+* **August 16th - 26th** -*Summer Camp Elite Squad Italy*
+* **S﻿eptember 4th** *\- New Season Commence*
