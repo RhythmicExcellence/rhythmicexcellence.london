@@ -3,7 +3,7 @@ published: true
 title: New City College SPACe - Hoxton 2024/25
 monday: |-
   16:30 - 21:00 - Elite Squad (SGO - Selected gymnasts only)
-  17:00 - 18:00 - Baby Group
+  17:00 - 18:00 - Baby Group (Full)
   18:00 - 20:00 - Club squad (SGO)
 tuesday: |-
   16:30 - 21:00 - Elite Squad (SGO)
