@@ -42,7 +42,6 @@ Gymnasts in our club must be registered with British Gymnastics.
 
 ***Upcoming event and closures***
 
-* **August 16th - 26th** - *Summer Camp Elite Squad Italy*
 * **S﻿eptember 4th** *\- New Season Commence*
 * **O﻿ctober 28th - November 2nd** *\- Half Term Camp (with special guest coach)*
 * **N﻿ovember 2nd** *\- 1st REC comp*
