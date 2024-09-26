@@ -1,5 +1,6 @@
 ---
 published: true
+status: true
 title: General Gymnastics Course
 subtitle: From 6 years old up
 description: Our recreational general gymnastics class for kids is a fun and
