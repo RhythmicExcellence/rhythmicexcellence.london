@@ -1,5 +1,6 @@
 ---
 published: true
+status: true
 title: RG Baby Group (only a few spots available left in the Monday class)
 subtitle: From 4 to 6 years old
 description: Our baby group course is a delightful introduction to the world of
