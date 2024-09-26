@@ -192,6 +192,15 @@ collections:
       - { name: 'description', label: 'Description', widget: 'string' }
       - { name: 'link', label: 'Link', widget: 'string' }
 
+  - name: 'Payments'
+    label: 'Payments'
+    folder: 'src/pages/payments'
+    create: true
+    fields:
+      - { name: 'published', label: 'Published', widget: 'hidden', default: true }
+      - { name: 'title', label: 'Title', widget: 'hidden', default: 'Payment forms' }
+      - { name: 'rec_accept', label: 'Accepting new Recreational customers', widget: 'boolean', default: true }
+
   - name: 'gymnasts-contract'
     label: 'Gymnasts Contract'
     folder: 'src/pages/gymnasts-contract/'
