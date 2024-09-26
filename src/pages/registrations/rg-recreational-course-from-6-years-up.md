@@ -1,5 +1,6 @@
 ---
 published: true
+status: true
 title: RG Recreational Course (only 2 places left for Tuesday class)
 subtitle: From 6 years up
 description: Our recreational gymnastics programme is designed to engage
