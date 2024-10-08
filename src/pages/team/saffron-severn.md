@@ -6,6 +6,9 @@ titles: >-
   UKCC Level 2 Rhythmic Gymnastics Coach 
 
 
+  Coaching our Elite Squad, Squad and supporting all our gymnasts
+
+
   Saffron, our former national team gymnast for GBR and ENG, proudly represented her country in significant competitions, notably participating in the 1st Junior World Championships in Moscow in 2019 and shining at the Commonwealth Games in Birmingham in 2022 (Team Bronze Medallist)
 
 
