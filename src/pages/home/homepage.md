@@ -43,5 +43,5 @@ Gymnasts in our club must be registered with British Gymnastics.
 ***Upcoming event and closures***
 
 * **O﻿ctober 28th - November 2nd** *\- Half Term Camp (with special guest coach)*
-* **N﻿ovember 2nd** *\- 1st REC comp*
+* **N﻿ovember 24th** *\- London Open Champs & Ice Trophy*
 * **December** **13th** *\- Xmas Show*
