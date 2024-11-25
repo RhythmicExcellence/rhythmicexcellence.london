@@ -36,13 +36,12 @@ All our coaches, teachers, and volunteers are DBS checked; our coaches have also
 
 Gymnasts in our club must be registered with British Gymnastics.
 
-![]()
+![](/assets/screenshot-2024-11-25-at-17.38.09.png)
 
 - - -
 
 ***Upcoming event and closures***
 
-* **November 24th** *\- London Open Champs & Ice Trophy*
 * **December** **13th** *\- Xmas Show*
 * **December 23rd** - *Winter Holidays begin*
 * **January 4th** - *Winter Holidays end*
