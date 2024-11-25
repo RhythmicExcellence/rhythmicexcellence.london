@@ -5,6 +5,8 @@ title: Saffron Severn
 titles: >-
   UKCC Level 2 Rhythmic Gymnastics Coach 
 
+  RE Elite Squad Head Coach
+
 
   Coaching our Elite Squad, Squad and supporting all our gymnasts
 
