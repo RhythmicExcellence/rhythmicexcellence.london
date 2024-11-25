@@ -4,7 +4,7 @@ position: 1
 title: Eleonora Baio
 titles: |-
   UKCC Level 3 Rhythmic Gymnastics Coach
-  Rhythmic Excellence Head Coach
+  Rhythmic Excellence Head Coach & Director
 avatar: /assets/eleonora-baio.jpg
 details: >-
   Eleonora moved to London in 2014 after having concluded her job as head coach
