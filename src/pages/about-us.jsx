@@ -12,6 +12,7 @@ class Team extends Component {
     this.state = {
       activeMember: null,
       show: false,
+      readMore: false,
     };
 
     this.bindActive = this.bindActive.bind(this);
@@ -32,6 +33,9 @@ class Team extends Component {
   render() {
     const { data } = this.props;
     const { show, activeMember } = this.state;
+    const { readMore } = this.state;
+    const {node} = data.about.edges[0];
+    const shortHtml = node.html.split(' ').slice(0, 20).join(' ');
 
     return (
       <Layout>
@@ -40,7 +44,8 @@ class Team extends Component {
             <h2 className="title">RE presentation</h2>
           </div>
           <div className="container">
-            <p>{data.about.edges[0].node.frontmatter.title}</p>
+            {readMore ? <div dangerouslySetInnerHTML={{ __html: node.html }} /> : <div dangerouslySetInnerHTML={{ __html: shortHtml }} />}
+            {!readMore && <a href="#" onClick={() => this.setState({ readMore: true })}>Read more</a>}
           </div>
           <div className="title">
             <h2 className="title">Coaches</h2>
