@@ -1,6 +1,6 @@
 ---
 published: true
-position: 8
+position: 10
 title: Irena Dziewiecka
 titles: |+
   Welfare Officer
