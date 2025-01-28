@@ -1,6 +1,6 @@
 ---
 published: true
-position: 4
+position: 5
 title: Alisija Dabasinskaite
 titles: >-
   UKCC Level 2 Rhythmic Gymnastics Coach
