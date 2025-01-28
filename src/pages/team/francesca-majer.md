@@ -1,6 +1,6 @@
 ---
 published: true
-position: 5
+position: 7
 title: Johana Wichterlová
 titles: |
   Assistant Coach
