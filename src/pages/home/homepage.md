@@ -6,9 +6,9 @@ title: Rhythmic Excellence
 
 ![](/assets/screenshot-2023-06-13-at-10.12.47.png)
 
-B﻿ook a Trial Class ***[here](https://docs.google.com/forms/d/e/1FAIpQLSewkct8pJvwFT81TV4aIoftkNBPc0ua5C6gkxQpLsWO-jjR1A/viewform?usp=dialog)***
+### B﻿ook a Trial Class ***[here](https://docs.google.com/forms/d/e/1FAIpQLSewkct8pJvwFT81TV4aIoftkNBPc0ua5C6gkxQpLsWO-jjR1A/viewform?usp=dialog)***
 
-Request an audition for our competitive squads - email us *rhythmicexcellence@gmail.com*
+### Request an audition for our competitive squads - email us *rhythmicexcellence@gmail.com*
 
 ![]()
 
