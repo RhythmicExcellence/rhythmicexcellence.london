@@ -14,7 +14,9 @@ Request an **Audition** for our competitive squads - email us *rhythmicexcellenc
 
 - - -
 
-Gymnasts in our club must be registered with British Gymnastics.
+All our coaches, teachers, and volunteers are DBS-checked, and our coaches are fully qualified and have completed the Safeguarding and Child Protection course.
+
+All gymnasts in our club must be registered with British Gymnastics.
 
 ![](/assets/4v1a7484.jpg)
 
