@@ -16,9 +16,13 @@ Request an audition for our competitive squads - email us *rhythmicexcellence@gm
 
 Gymnasts in our club must be registered with British Gymnastics.
 
-![Competitive Squad Junior and Senior - Season 2024/2025](/assets/4v1a7484.jpg)
+![](/assets/4v1a7484.jpg)
 
-![](/assets/4v1a7458.jpg "Competitive Squad Pre-Espoir and Espoir - Season 2024/2025")
+Competitive Squad Junior and Senior - Season 2024/2025
+
+![](/assets/4v1a7458.jpg)
+
+Competitive Squad Pre-Espoir and Espoir - Season 2024/2025
 
 - - -
 
