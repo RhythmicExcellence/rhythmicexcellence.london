@@ -6,9 +6,9 @@ title: Rhythmic Excellence
 
 ![](/assets/screenshot-2023-06-13-at-10.12.47.png)
 
-## *Rhythmic Excellence season 2024/25 Timetable is out!*
+B﻿ook a Trial Class ***[here](https://docs.google.com/forms/d/e/1FAIpQLSewkct8pJvwFT81TV4aIoftkNBPc0ua5C6gkxQpLsWO-jjR1A/viewform?usp=dialog)***
 
-Enrolments for the new season are open and some courses are already fully booked, please visit our customer documents page **[here](https://www.rhythmicexcellence.london/customer-info)** to proceed with the registration.
+Request an audition for our competitive squads - email us *rhythmicexcellence@gmail.com*
 
 ![]()
 
@@ -36,13 +36,14 @@ All our coaches, teachers, and volunteers are DBS checked; our coaches have also
 
 Gymnasts in our club must be registered with British Gymnastics.
 
-![](/assets/screenshot-2024-11-25-at-17.38.09.png)
+![]()
 
 - - -
 
 ***Upcoming event and closures***
 
-* **December** **13th** *\- Xmas Show*
-* **December 23rd** - *Winter Holidays begin*
-* **January 4th** - *Winter Holidays end*
-* **February 22nd/23rd** - *4th RE Friendly Tournament*
+* **February 15th/16th** - *London Championships L3,4,5* (Redbridge)
+* **February 22nd/23rd** - *4th RE Friendly Tournament* (RE)
+* **M﻿arch 1st/2nd** - *Regional Grades* (Redbridge)
+* **M﻿arch 29th/30th** - *Canterbury Cup* (CCRGC)
+* **A﻿pril 11th to 13th** - *37. MTM LJUBLJANA FIG AND NON FIG TOURNAMENT* (Ljubljana - Slovenia)
