@@ -2,11 +2,10 @@
 published: true
 title: Rhythmic Excellence
 ---
-![]()
-
 ![](/assets/screenshot-2023-06-13-at-10.12.47.png)
 
-#### \
+![]()
+
 B﻿ook a Trial Class ***[here](https://docs.google.com/forms/d/e/1FAIpQLSewkct8pJvwFT81TV4aIoftkNBPc0ua5C6gkxQpLsWO-jjR1A/viewform?usp=dialog)***
 
 Request an audition for our competitive squads - email us *rhythmicexcellence@gmail.com*
@@ -20,8 +19,6 @@ Gymnasts in our club must be registered with British Gymnastics.
 ![Competitive Squad Junior and Senior - Season 2024/2025](/assets/4v1a7484.jpg)
 
 ![](/assets/4v1a7458.jpg "Competitive Squad Pre-Espoir and Espoir - Season 2024/2025")
-
-
 
 - - -
 
