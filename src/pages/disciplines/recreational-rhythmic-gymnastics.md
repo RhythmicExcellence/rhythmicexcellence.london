@@ -21,6 +21,8 @@ We will teach the fundamentals of rhythmic gymnastics and ensure that children d
 
 Our REC course features a special ***Home Competition*** at the end of each month. This gives our gymnasts the exciting opportunity to showcase the routine they have been working on throughout the month in a supportive and encouraging environment. The competition allows them to gain performance experience, build confidence, and celebrate their progress. To recognise their hard work, we award the top three gymnasts, fostering a sense of achievement and motivation while keeping the experience fun and rewarding!
 
+Each month, we celebrate the hard work and dedication of our gymnasts by selecting a ***Gymnast of the Month*** for each group. This recognition is awarded based on fantastic attendance, mastering a new skill, perseverance, or other outstanding qualities. It’s our way of encouraging progress, effort, and a positive attitude in training!
+
 ## Find our Timetable ***[here](https://www.rhythmicexcellence.london/timetable)***.
 
 ![]()
