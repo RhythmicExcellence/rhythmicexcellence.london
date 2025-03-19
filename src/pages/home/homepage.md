@@ -30,8 +30,10 @@ Competitive Squad Pre-Espoir and Espoir - Season 2024/2025
 
 ***Upcoming event and closures***
 
-* **February 15th/16th** - *London Championships L3,4,5* (Redbridge)
-* **February 22nd/23rd** - *4th RE Friendly Tournament* (RE)
-* **M﻿arch 1st/2nd** - *Regional Grades* (Redbridge)
 * **M﻿arch 29th/30th** - *Canterbury Cup* (CCRGC)
+* **M﻿arch 31st** - No Classes
 * **A﻿pril 11th to 13th** - *37. MTM LJUBLJANA FIG AND NON FIG TOURNAMENT* (Ljubljana - Slovenia)
+* **A﻿pril 14th** - No Classes
+* **A﻿pril 18th to 21st** - Easter Break
+* **A﻿pril 27th/28th** - British Open Championships
+* **A﻿pril 29th** - No Classes
