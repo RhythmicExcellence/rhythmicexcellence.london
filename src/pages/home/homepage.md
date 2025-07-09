@@ -30,10 +30,5 @@ Competitive Squad Pre-Espoir and Espoir - Season 2024/2025
 
 ***Upcoming event and closures***
 
-* **M﻿arch 29th/30th** - *Canterbury Cup* (CCRGC)
-* **M﻿arch 31st** - No Classes
-* **A﻿pril 11th to 13th** - *37. MTM LJUBLJANA FIG AND NON FIG TOURNAMENT* (Ljubljana - Slovenia)
-* **A﻿pril 14th** - No Classes
-* **A﻿pril 18th to 21st** - Easter Break
-* **A﻿pril 27th/28th** - British Open Championships
-* **A﻿pril 29th** - No Classes
+* **July 18th/19th/20th -** *British Championships*
+* **J﻿uly 26th -** *Last training day of the season*
