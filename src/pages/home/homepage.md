@@ -6,9 +6,9 @@ title: Rhythmic Excellence
 
 ![]()
 
-Book a Trial Class [here](https://docs.google.com/forms/d/e/1FAIpQLSewkct8pJvwFT81TV4aIoftkNBPc0ua5C6gkxQpLsWO-jjR1A/viewform?usp=dialog) - Please note that we are now closed for the summer break, trials can be now booked for September.
+Book a **Trial Class [here](https://docs.google.com/forms/d/e/1FAIpQLSewkct8pJvwFT81TV4aIoftkNBPc0ua5C6gkxQpLsWO-jjR1A/viewform?usp=dialog)** - Please note that we are now closed for the summer break, trials can be now booked for September.
 
-**Request an Audition for our competitive squads - email us rhythmicexcellence@gmail.com**
+Request an **Audition** for our competitive squads - email us *rhythmicexcellence@gmail.com*
 
 ![]()
 
