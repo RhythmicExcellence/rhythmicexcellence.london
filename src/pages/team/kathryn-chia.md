@@ -1,6 +1,6 @@
 ---
 published: true
-position: 6
+position: 4
 title: Kathryn Chia
 titles: |-
   UKCC Level 2 Rhythmic Gymnastics Coach
