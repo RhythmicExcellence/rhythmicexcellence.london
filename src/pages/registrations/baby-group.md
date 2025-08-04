@@ -1,7 +1,7 @@
 ---
 published: true
 status: true
-title: RG Baby Group (only a few spots available left in the Monday class)
+title: RG Baby Group
 subtitle: From 4 to 6 years old
 description: Our baby group course is a delightful introduction to the world of
   movement and coordination for the youngest aspiring gymnasts. Tailored for
@@ -13,5 +13,5 @@ description: Our baby group course is a delightful introduction to the world of
   rhythmic elements, and interactive games, creating a fun and engaging
   atmosphere that sparks a love for physical activity from the very beginning of
   a child's gymnastics journey.
-link: https://docs.google.com/forms/d/e/1FAIpQLScER0l3i8vLhNJUGUzuVZYY9Oh5LHoruKhjL-fjghVlNZpA8g/viewform?usp=sf_link
+link: https://docs.google.com/forms/d/e/1FAIpQLSfqnJKNSFcfl_g_JMJ_Lr3APjLt1H6JsQaO3auPR4d-7yqDgA/viewform?usp=header
 ---
