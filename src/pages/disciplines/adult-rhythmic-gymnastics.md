@@ -18,26 +18,23 @@ _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 T﻿imetable**:**\
 *Tuesday* 18:30 - 21:00\
-*Friday* 18:30 - 21:00 \
+*Wednesday* 18:30 - 21:00 \
 *Saturday* 1:30 - 4:00\
 \
 Monthly fee: \
-£135 (2 classes per week)\
-£155 (3 classes per week)     
+£198
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-### **Adult recreational Information:** 
+### **Adult recreational Information:**
 
 T﻿imetable**:**\
-*Wednesday* 18:30 - 19:30\
+*Tuesday* 18:30 - 19:30\
 \
 Monthly fee: \
-£55 (1 class per week)
+£66 (1 class per week)
 
-Registration form: click ***[here](https://docs.google.com/forms/d/e/1FAIpQLSee6Yub5Xosng_qjMsbSQwKeQ0GXdA-hpf6P3B4XLi7nAIDaA/viewform?usp=sf_link)***.
-
-
+Registration form: click ***[here](https://docs.google.com/forms/d/e/1FAIpQLSeoGMHkCql6GiOBRDjv0PRLYyO6vQU5U3JsVo1--4P17lmefQ/viewform?usp=header)***.
 
 ![adult gymnastics](/assets/screenshot-2024-01-18-at-15.14.06.png)
 
