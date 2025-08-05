@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 position: 3
 title: Adult RG Courses
 ---
