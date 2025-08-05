@@ -16,7 +16,7 @@ _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### **Adult competitive Information:**
 
-T﻿imetable**:**\
+**Timetable**\
 *Tuesday* 18:30 - 21:00\
 *Wednesday* 18:30 - 21:00 \
 *Saturday* 11:30 - 2:00\
@@ -28,11 +28,11 @@ _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### **Adult recreational Information:**
 
-T﻿imetable**:**\
+**Timetable**\
 *Tuesday* 18:30 - 19:30\
 \
 Monthly fee: \
-£66 (1 class per week)
+£66 (1 class per week - more classes can be requested)
 
 Registration form: click ***[here](https://docs.google.com/forms/d/e/1FAIpQLSeoGMHkCql6GiOBRDjv0PRLYyO6vQU5U3JsVo1--4P17lmefQ/viewform?usp=header)***.
 
