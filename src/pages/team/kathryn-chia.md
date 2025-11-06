@@ -4,8 +4,7 @@ position: 4
 title: Kathryn Chia
 titles: |-
   UKCC Level 2 Rhythmic Gymnastics Coach
-
-  Level 2 judge
+  SGP Brevet Judge cat 4
 avatar: /assets/screenshot-2024-07-09-at-09.57.16.png
 details: >-
   Rhythmic gymnastics was my first love and has continued to be my greatest
