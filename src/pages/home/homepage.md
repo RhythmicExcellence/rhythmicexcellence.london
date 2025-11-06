@@ -30,6 +30,5 @@ Competitive Squad Pre-Espoir and Espoir - Season 2024/2025
 
 ***Upcoming event and closures***
 
-* **September 5th** *\- New Season Commence*
-* **O﻿ctober 27th to 31st** - *Half Term Camp*
 * **D﻿ecember 6th/7th** - *The London Crown*
+* **D﻿ecember 20th** - *Last Training day of the Year*
