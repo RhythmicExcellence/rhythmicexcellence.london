@@ -24,7 +24,7 @@ wednesday: >
   17:00 - 19:30 - Pre-Squad (SGO)
 
   18:30 - 21:00 - Adult competitive (SGO) + 18:30 - 19:30 RG Adult Recreational Group 
-thursday: ""
+thursday: 18:30 - 19:30 - Online S&C with Enrico
 friday: |+
   16:30 - 21:00 - Elite Squad (SGO)
   16:30 - 20:00 - Squad (SGO)
