@@ -1,7 +1,7 @@
 ---
 published: true
 position: 8
-title: Renata Van Tonder
-titles: Regional Judge
+title: Louise Doyle
+titles: Ballet Teacher
 avatar: /assets/rhythmicexcellence-copy.jpg
 ---
