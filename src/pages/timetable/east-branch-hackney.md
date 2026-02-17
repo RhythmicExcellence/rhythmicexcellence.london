@@ -9,6 +9,8 @@ tuesday: >-
 
   16:30 - 20:00 - Squad (SGO)
 
+  17:00 - 18:30 - Ballet (SGO)
+
   17:00 - 19:30 - Pre-Squad (SGO)
 
   17:00 - 18:30 - REC Recreational Group
@@ -40,5 +42,7 @@ saturday: >-
   10:15 - 11:15 - Baby Group
 
   11:30 - 14:00 - Adult competitive (SGO) + 11:30 - 12:30 RG Adult Recreational Group 
+
+  13:00 - 15:30 - Ballet (SGO)
 sunday: ""
 ---
