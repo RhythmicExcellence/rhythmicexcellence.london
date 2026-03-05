@@ -30,5 +30,4 @@ Competitive Squad Pre-Espoir and Espoir - Season 2024/2025
 
 ***Upcoming event and closures***
 
-* **D﻿ecember 6th/7th** - *The London Crown*
-* **D﻿ecember 20th** - *Last Training day of the Year*
+* **25th/26th April - Open Championships**  - Newcastle Upon Tyne
