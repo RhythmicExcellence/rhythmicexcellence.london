@@ -1,6 +1,6 @@
 ---
 published: true
-position: 11
+position: 10
 title: Lobna Shafik
 titles: |+
   Welfare Officer
