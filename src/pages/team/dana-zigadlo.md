@@ -1,6 +1,6 @@
 ---
 published: true
-position: 8
+position: 7
 title: Dana Zigadlo
 titles: |-
   UKCC Level 1 Rhythmic Gymnastics Coach 
