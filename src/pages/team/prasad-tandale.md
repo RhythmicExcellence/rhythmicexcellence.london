@@ -1,6 +1,6 @@
 ---
 published: true
-position: 10
+position: 9
 title: Prasad Tandale
 titles: Welfare Officer
 avatar: /assets/rhythmicexcellence-copy.jpg
