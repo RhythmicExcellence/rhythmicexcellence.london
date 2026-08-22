@@ -1,6 +1,6 @@
 ---
 published: true
-position: 7
+position: 8
 title: Louise Doyle
 titles: Ballet Teacher
 avatar: /assets/rhythmicexcellence-copy.jpg
