@@ -1,10 +1,9 @@
 ---
 published: true
-position: 10
-title: Lobna Shafik
-titles: |+
-  Welfare Officer
-
+position: 7
+title: Valeriia Zaiets
+titles: |
+  UKCC Level 1 Rhythmic Gymnastics Coach
 avatar: /assets/rhythmicexcellence-copy.jpg
 details: |-
   Welfare Officer
