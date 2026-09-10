@@ -1,7 +1,7 @@
 ---
 published: true
 position: 5
-title: Svetlana Kuncheva
+title: Svetla Marvakova
 titles: >-
   UKCC Level 3 Rhythmic Gymnastics Coach
 
